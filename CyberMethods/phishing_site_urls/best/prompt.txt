@@ -1,0 +1,2 @@
+ 5. Suspicious TLD & Brand Impersonation
+    "Check the top-level domain against known high-risk extensions (e.g. .xyz, .top, .club) and look for popular brand names inserted as subdomains or prefixes (e.g. paypal-secure.example.com). Flag mismatches.",

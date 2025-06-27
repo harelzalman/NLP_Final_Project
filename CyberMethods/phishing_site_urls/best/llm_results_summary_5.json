@@ -1,0 +1,7309 @@
+{
+  "counts": {
+    "TP": 232,
+    "FP": 119,
+    "TN": 202,
+    "FN": 110,
+    "unknown": 0
+  },
+  "precision": 0.6609686609686609,
+  "recall": 0.6783625730994152,
+  "f1": 0.6695526695526696,
+  "fpr": 0.3707165109034268,
+  "num_samples": 663,
+  "per_url_results": [
+    {
+      "url": "facebook.com/?sk=pages&ap=1",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/MercyChildrensHospital",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/airtransat",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/bottomlesscupmusic/posts/258997184139719",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/easportsnhl/posts/10150271906445996",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/event.php?eid=231327540224434",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/event.php?eid=248726435178079",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/jeanquan",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/media/set/?set=a.360345674976.54921.26696569976",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/note.php?note_id=254162211272625",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/pages/Green-Communities-Canada/125118647578545",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/pages/NBC-California-Nonstop/161075613940085",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facebook.com/panerabread?sk=app_150783918346068",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "facetsdvd.com/ProductDetails.asp?ProductCode=DV98608",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "faithcenteredresources.com/authors/mike-murdock.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "family-crests.com/family-crest-coat-of-arms/on-this-day/january-17.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Allen_County%2C_Kentucky",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Baraga_County%2C_Michigan",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Chisago_County%2C_Minnesota",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Crawford_County%2C_Pennsylvania",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Houston_County%2C_Minnesota",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Iosco_County%2C_Michigan",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Lenawee_County%2C_Michigan",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Lynn_County%2C_Texas",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Martin_County%2C_Minnesota",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Monmouth_County%2C_New_Jersey",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Skamania_County%2C_Washington",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "familysearch.org/learn/wiki/en/Wabash_County%2C_Indiana",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fannyallen.org/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "fbo.gov/spg/GSA/PBS/6PMFS/GS-06P-09-GX-D-0033/listing.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fbo.gov/spg/GSA/PBS/9PMFC/GS-09P-11-KS-D-0024/listing.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "firstchoiceathlete.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "firstcommercialbank.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "firstcommercialbank.com/index.cfm?ID=447",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "firstinterstatebank.com/foundation/grant_awards.php?state=MT",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "firsttechfed.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "flbeachvolleyball.com/fbv_tournamentresults.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "flsouthern.edu/fllwctr/FOrdway.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fookinglong.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/artists/blessure.grave.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/artists/bley.quintet.paul.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/artists/frank.and.sam.shalabi.adam.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/artists/prince.lawsha.firebirds.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/artists/simmons.sonny.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/labels/alien8.recordings.canada.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/labels/o.paon.canada.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "forcedexposure.com/labels/warner.bros.seven.arts.records.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "franchisetimes.com/Fran_Resources/saepio.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "frontrush.com/FR_Web_App/Player/playerListing.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "fsbtc.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "fujifilm.com/products/motion_picture/information/091225_01.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "gasolinealleyantiques.com/sports/hockey/memorabilia.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "getabstract.com/en/summary/finance/excellence-in-the-boardroom/2197/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "gettopsy.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "gfg.com/baseball/exhibithockey.shtml",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "giveto.osu.edu/igive/OnlineGiving/category/lima.aspx?num=lima&coll=none",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "gplus.com/Rail/Insight/Kansas-City-Southern-Railway-Company-is-a-case-of-permanent-potential-49154",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "gradymgt.com/findahome/localactivities.asp?id=23",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "grantham.edu/colleges-and-schools/college-of-arts-and-sciences/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "greatatlantictravel.com/sports/mlb/tickets/kansas-city-royals-tickets",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "havelockjamboree.com/melanie-morgan/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "healthcaresource.com/cho/index.cfm?fuseaction=search.categoryList&template=dsp_job_categories.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "healthpartners.com/locator/location/detail.do?locationId=5520",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hobbyfever.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hvcc.edu/athletics/icehockey/icehockeystory.php?id=3851",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "hvcc.edu/athletics/icehockey/icehockeystory.php?id=4033",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "hvcc.edu/news_events/newsstory.php?id=1301",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ibm.com/developerworks/mydeveloperworks/blogs/nfrsblog?maxresults=50&sortby=1&lang=en",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "iealing.com/tn/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "iicle.com/RSS/RSS.aspx?TypeID=12",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "indianacounties.org/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "indianamichiganpower.com/outages/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "indiepixfilms.com/film/1109",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "indiepixfilms.com/film/1324",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "indiepixfilms.com/film/3190",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "indiepixfilms.com/film/3240",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "innovativetelephone.com/helpdesk.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "innovativetelephone.com/index.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "insidervlv.com/Odds/PreviousStanleyCups.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "insightcommunity.com/case.php?iid=1194",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "invincea.com/blog/2010/02/cyberwarfare-%e2%80%a9and%e2%80%a9-cyberterrorism%e2%80%a9%e2%80%a9-the%e2%80%a9-need-%e2%80%a9for%e2%80%a9-a%e2%80%a9%e2%80%a9-new-%e2%80%a9u-s-%e2%80%a9strategic%e2%80%a9-approach/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "jewellalumni.com/Page.aspx?pid=418",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "jigsaw.com/Bria_Hell_Gord_Helm/contact_information.xhtml",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "johnhancockfinancialnetwork.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/bybee-jay-s",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/fawsett-patricia-c",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/fisher-raymond-c",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/garwood-william-l",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/griesa-thomas-p",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/shubb-william-b",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "judicialwatch.org/judge/tallman-richard-c",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "kaiserpermanente.org/santaclara",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "kentrathbunstore.com/index.php?cPath=37",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "kentrathbunstore.com/index.php?option=com_virtuemart&page=shop.browse&category_id=6&Itemid=6",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "key.com/personal/debit-cards/debit-card-options.jsp",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "kohlercu.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lafontainefinance.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lambdachi.org/candc/chapter-news-september-2011",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lambdachi.org/candc/fraternity-news-harm-reduction-101",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lambdachi.org/candc/job-opening-in-ihq-communications-department",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "law.duke.edu/shell/cite.pl?17+Duke+Envtl.+L.+&+Pol'y+F.+209",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "legacy.com/guestbook/atlanta/sponsor-guestbook.aspx?n=richard-boyer&pid=145162984",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lib.uwo.ca/programs/companyinformationcanada/ccc-ogilvie.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lib.uwo.ca/programs/companyinformationcanada/cr-montrealstockexchange.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lignite.com/?id=74&page=Milton+R.+Young+Station",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "linfield.edu/sports/hof-member.php?m=37",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "logodesignguru.com/case_studies/22305.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/113472/Domini_Blythe.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/52196/Jo_Van_Fleet.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/53805/Sean_Harris.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/69546/Jason_Cadieux.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/71105/Rosemary_Forsyth.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lovefilm.com/browse/contributor/78012/Ella_Fitzgerald.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "lrboi-nsn.gov/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "marketsolsoft.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "maryville.edu/admissions-cedl-professionaldev.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mearsonlineauctions.com/AuctionResults.aspx?auctionid=5&ClosedSessionsOnly=1",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "mediabistro.com/fishbowlla/actor-tom-ferguson-dead-at-65_b20764",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "meredith.edu/giving/faculty-staff-contributors.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "meredith.edu/giving/honor-roll/friends.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "meredith.edu/giving/honor-roll/parents.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mesharpe.com/mall/resultsa.asp?Title=Remaking+Russia%3A+Voices+from+Within",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "metmuseum.org/toah/bibliography/?id=11686",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "metroallianceforhealthyfamilies.org/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mghfoundation.com/en/donation/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mills.edu/news/2005/newsarticle04222005ron_dellums_117th_commencement.php",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mills.edu/news/2006/newsarticle04202006renel_athletic_achievement.php",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mills.edu/news/2006/newsarticle08162006convocation_speaker_brooks_moon.php",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mitchellsong.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "mountsaintvincent.edu/1925.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/user/dalrymp6/hieroglyphics.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/user/holuta/agar.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/user/mdr/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/user/svoboda1/taxi_driver/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/~carillon/westcott.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "msu.edu/~reed3/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mtvoters.org/links/earthjustice_legal_defense_fund",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "myrussellstover.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "myu.umn.edu/metadot/index.pl?id=3856578",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nationalcowboymuseum.org/events/pdw/OnlineCatalog/ArtistCatalog.aspx?ID=16",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nationalcowboymuseum.org/events/pdw/OnlineCatalog/ArtistCatalog.aspx?ID=58",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "navyfederal.org/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nbcubenefits.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nbcupuma.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "nch.ie/online/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "networkworld.com/intranet/896sun.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nfclincoln.org/Contact_Us.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nkfamilypractice.com/portal/About+Us/default.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "nmnathletics.com/sellnew/auction/AuctionViewItem.dbml?_IN_STORE_=YES&DB_OEM_ID=4200&ITMID=388205&AU_AUCTION_ID=126982",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### R",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "nothingbutsharepoint.com/sites/eusp/Pages/finally-dynamic-charting-in-wss-no-code-required-part-3-multiple-pie-charts.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "novascotiagenealogy.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ntea.com/content.aspx?id=8882",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "odesk.com/jobs/Pure-Tone-Audiogram-App-dev_%7E%7E4987a11deb944e71?source=rss",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ohio.edu/outlook/2009-10/April/winter_showcase_469.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ohio.edu/outlook/2009-10/March/Governor-congrats-Bobcats-449.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "owens.edu/academic_dept/arts_sciences/social.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "owens.edu/athletics/wbasketball/players.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "owens.edu/public_relations/weather.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "partners1stcu.org/about.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "partnersfcu.org/partners-federal-credit-union/current-news/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "partnersfirstcc.com/landing.aspx?code=UNO&cid=99&jid=4192061&ch=BAN",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "phoneshark.com/showwirelesscard.cfm?f=11&t=11&p=9257",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "phoneshark.com/showwirelesscard.cfm?f=11&t=11&p=9258",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "pirateparty.ca/about/candidates",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "pirateparty.ca/about/leadership/mikkel-paulson",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "pivotalusa.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "play.net/credits/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "pmcu.com/?Cabinet=MAIN&Drawer=Electronic+Services&Folder=ATM+%2F+VISA+Debit+Card&SubFolder=ATM+%2F+VISA+Debit+Card",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### R",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "points.com/loyalty-program/aeroplan",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "premierguitar.com/Rss/video.aspx?category=Most_Viewed",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "premierguitar.com/rss/Articles.aspx?category=Features",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "premierguitar.com/rss/Daily.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "providence.org/healthlibrary/ContentViewer.aspx?hwid=nord39",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "qimacros.com/free-excel-tips/control-chart-limits.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "quincy.edu/newstemplate.php?id=1025",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "rastn.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "rastn.com/default.aspx?center_left=clients&top_articleid=8",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "rbccm.com/about/cid-202770.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "rbccm.com/capitalpartners/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "rbccm.com/tceg/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "redhat.com/archives/k12osn/2007-July/msg00304.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "revisor.mn.gov/statutes/?id=160.2715",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "revisor.mn.gov/statutes/?id=161.14",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "revisor.mn.gov/statutes/?id=169.011",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "revisor.mn.gov/statutes/?id=89&view=chapter",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ri.gov/DMV/mvr/citizen/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "royal.gov.uk/LatestNewsandDiary/Speechesandarticles/2002/TheQueenaddressestheRoyalWarrantHoldersAssociation.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sandiegohistory.org/amero/notes-1915b.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sbandtbank.com/index.cfm?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "scad.edu/programs/distinguished/lacoste.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "scholarselect.com/scholarships/713-2011---marcus-foster-education-fund",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "scientificamerican.com/article.cfm?id=the-quest-of-christof-koc",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "screenit.com/movies/2000/joe_goulds_secret.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "screenit.com/ourtake/1999/plunkett_and_macleane.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "seaislandbank.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/afterschool/afterwords/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/PD_bibliography.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/communique/n06.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/arabic_splendors.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/french_carrefour.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/french_influence.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/latin_multicultural.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/latin_vesuvius.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/spanish_conflict.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/spanish_islands.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/loteced/scenarios/spanish_reflejo.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sedl.org/search/siteindex.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "semo.edu/news/index_13232.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sevenhill.com.au/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sharp.com/billing/index.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "shopusasports.com/Articles.asp?ID=211",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "signatureflight.com/News/Lists/PressReleases/Release.aspx?ID=43",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "signatureflight.com/News/Lists/PressReleases/Release.aspx?ID=58",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "smashwords.com/books/view/88187",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "snc.edu/athletics/tourneys.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sncrr.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "socceramerica.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "solutionticket.com/en/solution-ticket-services/addresses-of-municipal-court-of-quebec.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sos.ok.gov/notary/bulkorder/AdHoc.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "southlandgolfmagazine.com/t-Columns_Inside_The_Ropes_College_Golf_Jane_Chin_Tiffany_Joh_Cameron_Tringale0509.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sovereignbank.com/atm_locator/default.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sportstravel.com/venues/canadian-grand-prix.php",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stcharlesprep.org/01_athletics/athletic_baseball.php",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sterlingmontgomery.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/california/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/godspeed-you-black-emperor-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/heavy-mtl-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/kansas-city-royals-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/kansas-state-wildcats-football-road-games/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/marc-andre-hamelin-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/matt-wertz-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/oakland-athletics-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/olympic-stadium-event-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/osheaga-music-and-arts-festival-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/ricky-gervais-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "stubhub.com/tony-toni-tone-tickets/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sunlifedistributors.com/prodline/public/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "surveymonkey.com/s.aspx?sm=cst6YQIS65I8BojeJKvcXN20Cjwi6G9HolU1ccQtpf0%3d",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "surveymonkey.com/s/ZB7CJRS",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "swimming.ca/1500mFreestyleMen",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "swimming.ca/AndreaNugentbioEN",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "swimming.ca/NewsArticle.aspx?newsid=2249",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "swimming.ca/NewsArticle.aspx?newsid=2395",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "swimming.ca/news.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "talstatebank.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "tate.org.uk/about/tatereport/2006/people/staff3.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "thekansascitystore.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "thekansascitystore.com/productDetail.php?PID=1358",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "theochocolate.com/store/products/specialty-chocolate/cocoa-nibs",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "theoldglobe.org/tickets/production.aspx?PID=8821",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "theplaydiumstore.com/TournamentPage.aspx?Topic=Tournament1",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "theticketfactory.com/default/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=721704D2-65DE-45B1-AD3E-B58C649084EE",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "theticketfactory.com/default/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=EE2A4CF1-1587-47FD-B8F6-8831E525762F",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "theunionbootpro.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ticketreturn.com/prod2/team.asp?SponsorID=2461",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "topsyturvy.com/?cid=486257",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "toxicology.org/ISOT/SS/mechanisms/Awards.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "toxicology.org/ai/csot/endowcontributions.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "transdev.ca/about-transdev-limocar/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "transdev.ca/home-en/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "trumanlibrary.org/photographs/listnames.php?letter=B",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "trust1bank.com/?id=68",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "tsl.state.tx.us/shc/hooves.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twinoaksicerink.com/nhlplayers.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twu.ca/athletics/mens-soccer/schedule-and-scores/2007-08/2008-04-12.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twu.edu/twhf/honorees.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uclaextension.edu/r/InstructorBio.aspx?instid=18793",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ucreditu.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ukincorp.co.uk/s-1D-ge",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "uky.edu/Libraries/NKAA/subject.php?sub_id=15",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uky.edu/Libraries/NKAA/subject.php?sub_id=171",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "umb.com/AboutUMB/Careers/index.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "umb.com/AboutUMB/CompanyInformation/OurHistory/000213",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "umb.com/Personal/Investing/index.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "umb.com/Personal/index.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "umkc.edu/history/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uprr.com/customers/shortline/lines/index_l_p.shtml",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "uprr.com/newsinfo/releases/community/2007/0816_sacramento.shtml",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "urmc.rochester.edu/psychiatry/faculty/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "usacycling.org/results/index.php?compid=179001",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "usacycling.org/results/index.php?permit=2008-2277",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "usdf.org/clubs/people.asp?GroupPass=805&regionpass=8&TypePass=GMO&NamePass=New%20England%20Dressage%20Association",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "usna.com/SSLPage.aspx?RSS=alumni&pid=3786",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "usna.com/SSLPage.aspx?RSS=alumni&pid=3861",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "usnwc.edu/Academics/Maritime--Staff-Operators-Course.aspx",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "usreap.net/jobsrch.php?HTML=report&srch=300&position=310&subject=0&sort=SCHCITY",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "utahcentral.com/about/press",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "utahcentral.com/news/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "utexas.edu/utpress/excerpts/exboywer.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uu.edu/athletics/halloffame/inductees2007.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uu.edu/athletics/halloffame/inductees2008.cfm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "vat19.com/dvds/trailertheater.cfm?productID=ingenuitea",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "vault.com/career-company/Black-&-Veatch.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "vccs.edu/Default.aspx?tabid=404",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "viapreference.com/en/news",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "videotron.com/service/sac/ServiceClientele",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "virginia.org/Cities/Fairfax/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "wachovia.com/checking/checking.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "warrants.standardbank.co.za/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "washingtonlife.com/directories/photos/?letter=S&name=Sharon-Rockefeller",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "webselfstorage.com/en/self_storage/SAINT%2DELZEAR_QC/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "webselfstorage.com/en/self_storage/SAINT-BERNARD_QC/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "webselfstorage.com/self_storage/KANSAS%20CITY_MO",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "webselfstorage.com/self_storage/SAINT+LEONARD_QC/zip_H1R1Z6/U-HAUL_STORAGE_ST_LEONARD/886023",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "webselfstorage.com/self_storage/VAUDREUIL-DORION_QC/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "wellsfargo.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "wfhm.com/loans/danny-fitzpatrick/about.page",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "wfhm.com/loans/heather-phipps",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "wfhm.com/wfhm/danny-fitzpatrick/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "whitworth.edu/Athletics/Teams/BasketballMen/Coaches.htm",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "wirelessrefill.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "worldswithoutend.com/books_Locus-F_index.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "worldswithoutend.com/books_Locus-SF_index.asp",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "wreathsacrossamerica.org/locations/",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "xing.com/profile/Nils_Hagemann",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "youthleaguesusa.com/potomacsoccer/11-12/Tryout.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "youthleaguesusa.com/potomacsoccer/2011/Tournament.html",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "zip-codes.com/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "owens.edu/news-releases/?p=2052",
+      "ground_truth": "legitimate",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "1.safesecureweb.com/egale/index.asp?item=1173",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "yurika.otakuthon.com/reg/main.pl/en/",
+      "ground_truth": "legitimate",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hottraveljobs.com/forum/docs/info.php",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "news.grouptumbler.com/news/feed.php",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "info.leveldelta.com/php/text.php",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "citroen-club.ch/n.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "zehir4.asp",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ZHC_Shell_1.0.aspx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "img851/2304/bismillahus.jpg",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "himselp.net.in/css/acrord.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.skyslisten.com/help.html",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "micro/advice.php?",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### URL",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "199.91.173.43/new_salary/salary_revision.scr",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "199.91.173.45/OBL_Leaked_Report.zip",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "199.91.173.45/Naxalites_Funded_By_Pakistan.zip",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "199.91.173.45/is_array.php?compname=<COMPUTERNAME>",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "199.91.173.45/fetch_updates_8765_tb.php?compname=<COMPUTERNAME>",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.153/mii/swf.js",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.154/mii/fird.gif",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.154/mii/swf.js",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.154/mii/guy2.html",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.153/mii/guy2.html",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "1.234.31.153/mii/fird.gif",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "174.139.126.66:8888/5.txt",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "220.229.238.123/tn/images/index.html",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.atmovies.com.tw/home/temp1.html",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "www.jessearch.com/dev/js/27.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.securimalware.net/info/update.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.setchon.com/jd/upload.aspx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.samyongonc.com/jd/upload.aspx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.625tongyi.com/jd/upload.aspx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "appst0re.net/upload.aspx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "bg1337.zapto.org:1155",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ahmad212.no-ip.biz:86",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "alii007.zapto.org:6611",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "dzhacker15.no-ip.org:82",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "adolf2013.sytes.net:1183",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "docteuur13.no-ip.org:444",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "bog5151.zapto.org:991",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "alii007.zapto.org:288",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "adolf2013.sytes.net:1184",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "g00gle.sytes.net:4448",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "dataday3.no-ip.org:83",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ballgogo.no-ip.biz:8088",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "basss.no-ip.info:2026",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "adamdam.zapto.org:1973",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "doda.redirectme.net:777",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "basss.no-ip.info:82",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "am1.no-ip.info:1888",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "portipv6.redirectme.net:1991",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "pess-12.zapto.org:81",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "koko.myftp.org:9090",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "no99.zapto.org:81",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "noooot.no-ip.biz:443",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "pess-123.zapto.org:1604",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "microsoftsystem.sytes.net:4442",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "msgbox.zapto.org:5246",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "gerssy.zapto.org:6000",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mootje01.no-ip.org:81",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "karimstar.zapto.org:85",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hackediraq.no-ip.biz:88",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "njnj.redirectme.net:123",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "kiyoma200.no-ip.biz:1117",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hattouma12.no-ip.biz:88",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "medolife.no-ip.biz:1247",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hmode123.no-ip.biz:9090",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "new-hacker.no-ip.org:81",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "googlechrome.servegame.com:1990",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "hackeralbasrah.no-ip.biz:8888",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "mda.no-ip.org:88",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "securityfocus.bounceme.net:1166",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "zeusback.no-ip.biz:223",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "vpn-hacker.no-ip.biz:9090",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "silent9.zapto.org:7895",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sawdz.no-ip.biz:333",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ronaldo-123.no-ip.biz:2011",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "xkiller.no-ip.info:1",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "terminator9.zapto.org:1991",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "yahia17.no-ip.org:1177",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "zoia.no-ip.org:446",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "sidisalim.myvnc.com:1888",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "xbox720.zapto.org:1991",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "ronaldo-123.no-ip.biz:2013",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "shagagy21.no-ip.biz:1605",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "networksecurityx.hopto.org",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "user_id=%.4u&version_id=%lu&socks=%lu&build=%lu&crc=%.8x",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### SYSTEM",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ok.aa24.net/meeting/index.html",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "api/client/pings.php?",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "123.49.61.59:8080/zb/v_01_a/in/",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "83.238.208.55:8080/zb/v_01_a/in/",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "41.168.5.140:8080/zb/v_01_a/in/",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "out.hzlo.net/download/Flash_update.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "4sq.mattersofgrey.com/download/Flash_update.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.google.com/webhp",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "62.212.66.204/putty.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "adobe.flash-mail.tk/update/Flash_updata.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.nextramax.com/files/download.php?f=JapanGrandStrategy.exe",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "www.stisanic.com/wp-content/coblackberrycomnotasdevozdate07052014.php",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "analaloca.chickenkiller.com:3460/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "outlook11551.no-ip.biz/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "laithmhrez.no-ip.info/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "uranio2.no-ip.biz:10180/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "windows.misconfused.org:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "papapa-1212.zapto.org/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "livejasminci.no-ip.biz:4444/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "cascarita3.no-ip.biz:33500/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "allmyworkers.no-ip.biz:400/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "31.193.9.126:3377/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "suportassisten.no-ip.info:2180/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "supermanaa.no-ip.biz/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "spycronicjn.no-ip.org:81/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "fungii.no-ip.org:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "cascarita2.no-ip.biz:33200/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "updating.serveexchange.com:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mohammad2010.no-ip.biz:81/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sarkawt122.no-ip.biz/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "cascarita1.no-ip.biz:33100/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fungii.no-ip.org:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "cascarita2.no-ip.biz:33200/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "cascarita1.no-ip.biz:33100/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "mohammad2010.no-ip.biz:81/123456.functions supermanaa.no-ip.biz/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "uranio2.no-ip.biz:10180/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "windows.misconfused.org:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "cascarita3.no-ip.biz:33500/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "allmyworkers.no-ip.biz:400/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n### END",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "livejasminci.no-ip.biz:4444/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "spycronicjn.no-ip.org:81/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "31.193.9.126:3377/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "updating.serveexchange.com:999/123456.functions",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nlegitimate\n\n### RE",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "papapa-1212.zapto.org/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "suportassisten.no-ip.info:2180/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "sarkawt122.no-ip.biz/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "laithmhrez.no-ip.info/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\nphish\n\n### SYSTEM",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "outlook11551.no-ip.biz/1234567890.functions",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "\\/deutsche_telekom_ag$",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "\\/telekom\\/(telekom_deutschland_gmbh|vodafone_onlinerechnung)$",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/0PB7txP",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/2fjzjntOX",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/4pz8U81",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/2RobTXBSV",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/0OIO2Te",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/4tzQT6FCl",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/0qxtPXSmSyI",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/5dVRylmE2b",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/32esNXlFYgpY",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/5i71FSpp",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/49c3auaBXar",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/E2NtRY7I",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/EFsKIDmwee87",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/96HJt4ySYLGp",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/a8oFKyik",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/eKyhz3xXMWZ6",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/C04Jnilg",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/CuusxXdIzW0u",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Aphu71kQCLWX",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/CcaunomKn9e4",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AtAuMIaO9B",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/dJxQGtf",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/DT6z6nWCgXR",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/bvXPoAH",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/aQW38QIY",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/CsJaSBbL0oOj",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/93wpflnsEZ",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/D99oXj1p4sm",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/CjreLwzL",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Bkl9e3wYcyz",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/axlYSmgqsK",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/aaFzxeaORc1W",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/C4ia4qIwSh",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/6AM2Y3k",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/HENqswzmm",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/JGRrKdjeN",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/JpJVZq8De0r",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/kaabM1KFst",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/GalhlqnCly2a",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gNF1rrwfC5",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/EPfGer2T",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/kfqfsiu7",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/IX9lrcQ59AS4",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/KKINOJQy",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/LFXtOYeJv",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/IUvtTL5Sa2Lc",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/iaakHG0R",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gn9CDH5s8I",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/JS3R7wJ2Q",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/exX16ERO",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/jOj8hcuok",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/fCK1aSue7",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/hdX9hSu",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Fw4QbvYwKYK",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/GT8uUrJa",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/iWIcL5I1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/tTEhg5aFQkc",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/MhnG9JbL2wxH",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/POLLVxLqc",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/TgOClEb",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/pNnBhck",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Rqmp9z9bd",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/TpVQKrx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/SpZL2lwK",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/mhuvluXr",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/mKGyKMbx",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/ScdLgabN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/RQKbh3s",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/LuD0UiK",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/O8k0NjyKB5wj",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/LmXjGeflxeF",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/n2OtJleVKBF",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/TAtDPv2",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/tbYY979bU",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QgjYkSr3",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/oGDMwswhWB",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/TIGVRXlWN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/sl5I7xyi",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/oAfmAlUTCB",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/WTIo7ohk",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/tXvnUHt",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/xmPmzxmN4LU",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/xbWUj6Y",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/tyHM7xma2",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wzuQxqUF",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Ukj52IXdjp",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Z9Pt5Lu",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/u8DQkuZS",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Xj5AG7H",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/URvSxPSPMJjS",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/uOeM85oaXA99",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/vayhXxj0k",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Yv9Ek4j8Owuq",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wz9ejI4IU7p6",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/YQdh1dwBGey1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/uruvOlMh",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/xmNgva8RW",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/vbDluCmRA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/Vdw9Roov1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/yO6fMyyspVLv",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wnyQC4qGOFu3",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/ZpcNfVldGUr",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/ZDfPMyRR4pa",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/zEqRE3g9K",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA4ADQAMg",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAzADYANwA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAyADAAMAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAxADIA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAxADQAM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAtADIA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA2ADQAN",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA5ADkANA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA4ADAAN",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA4ADIAM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAxAC0AM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA2ADYA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AA2ADcAOAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAtADEAOAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAxADQA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAxADgAMgA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAtADEAMA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA0ADAANAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/AAyADkANw",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAtADEAMw",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAwADUANQ",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAxADcA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAxADMAMwA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA3ADgAO",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAyADMANA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAzADgANgA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA0ADIA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA0ADYAMw",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA1ADcA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA0ADQAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA2ADAAMQ",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAwADMA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA0ADMA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAxADEAO",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA2ADEAMg",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA1ADQAMgA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gAxADIAM",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA1AC0A",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/gA1ADYAMg",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA1ADUAOA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA1ADgAM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAtADgAMAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA3ADkAN",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADgAOAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA3ADkAMgA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADEA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA4ADYANw",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADEAMQA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA2ADkA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAtADIAMA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA5ADQA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA2ADkAMAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA3ADQAMQA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA4ADcA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA5ADIANAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADEAN",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAtADEANwA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAwADQA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADkA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAtADEAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA4AC0AMQA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA3ADYANw",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAtADgAMw",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA4AC0A",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA3ADUAMg",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QA5ADMA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAyADAANA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADUAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADcAOA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA2ADcAOA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA4ADEAOQ",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADgA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADMAMwA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA1ADcAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAwADQAM",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAtADQAOA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA1ADMAO",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAyADEAM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAxADMA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA2AC0ANw",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAtADEAMAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADQANAA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADAAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADgAM",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAyADAAN",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADgAOAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAyADMAMQA",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wA2ADgAOAA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAyADgAM",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAxADEA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAzADIANw",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/QAxADQA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAzADQAO",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAzADUA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAzADQAM",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/wAyADQA",
+      "ground_truth": "phish",
+      "final_prediction": "phish",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nphish\n\n###",
+          "extracted": "phish"
+        }
+      ]
+    },
+    {
+      "url": "twitter.com/FloydLSchwartz",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fra1.ib.adnxs.com/if?enc=mpmZmZmZuT_D9Shcj8K1P_yp8dJNYtA_w_UoXI_CtT-amZmZmZm5P45vm53ZXbgTe4FMj7UmtlF2d2pTAAAAAMfdJQCZBwAAawYAAAIAAADJReYAF9cFAAAAAQBVU0QAVVNEANgCWgDXNwAAgIwAAgUAAQIAAI4AYiwQpAAAAAA.&cnd=%21-iPgtQjrkOsBEMmLmQcYACCXrhcwADgAQABI6wxQx7uXAVgAYCtoAHAAeACAAQCIAQCQAQGYAQGgAQGoAQOwAQC5AZqZmZmZmbk_wQGamZmZmZm5P8kBiiFOYCt3_T_ZAQAAAAAAAPA_4AEA9QEAAIA-&ccd=%21CAZWOwjrkOsBEMmLmQcYl64XIAA.&udj=uf%28%27a%27%2C+129071%2C+1399486326%29%3Buf%28%27c%27%2C+3852395%2C+1399486326%29%3Buf%28%27r%27%2C+15091145%2C+1399486326%29%3B&vpid=843&apid=260081&referrer=http%3A%2F%2Fwww.jetairways.com%2F&media_subtypes=1&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fra1.ib.adnxs.com/if?enc=mpmZmZmZuT_D9Shcj8K1P57vp8ZLN-0_w_UoXI_CtT-amZmZmZm5PxN5OLAwGqVfhxdtvB_KGGC6WWpTAAAAABa9JwBGAQAAawYAAAIAAADJReYA00AFAAAAAQBVU0QAVVNEANgCWgBt1wAAFMoAAgUAAQIAAI4ACikZjwAAAAA.&pubclick=http://ams1.ib.adnxs.com/click?iwd-JD8ssz-i2LfqVhCxP_YoXI_C9dg_oti36lYQsT-LB34kPyyzPwsxWFkarS53hxdtvB_KGGC4WWpTAAAAAC6MJgAhCQAAEAkAAAIAAADu4uQAeQcGAAAAAQBVU0QAVVNEANgCWgA8bwAAHrkAAQUAAQIAAI4AsCMdmwAAAAA./cnd%3D%2521wwZ-QQin9OoBEO7FkwcY-Y4YIAA./referrer%3Dblackhatworld.com/clickenc%3D&cnd=%21qiXgEgjrkOsBEMmLmQcYACDTgRUwADgAQABI6wxQlvqeAVgAYMcEaABwAHgAgAEAiAEAkAEBmAEBoAEBqAEDsAEAuQGamZmZmZm5P8EBmpmZmZmZuT_JAROcUMZvtP4_2QEAAAAAAADwP-ABAPUBAACAPg..&ccd=%21FQbIOwjrkOsBEMmLmQcY04EVIAA.&udj=uf%28%27a%27%2C+129071%2C+1399478714%29%3Buf%28%27c%27%2C+3852395%2C+1399478714%29%3Buf%28%27r%27%2C+15091145%2C+1399478714%29%3B&vpid=18&apid=265698&referrer=blackhatworld.com&media_subtypes=1&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fra1.ib.adnxs.com/if?enc=m5mZmZmZuT80MzMzMzOzPzm0yHa-n7o_NDMzMzMzsz-amZmZmZm5Pzyo7WX5BRJ0VASXL0e1gVfXN2pTAAAAAMMBHgBNBQAAawYAAAIAAADJReYAuasCAAAAAQBVU0QAVVNEANgCWgCWbgAAyY0AAgUAAQIAAIoAXiXLxgAAAAA.&cnd=%21DybzCwjrkOsBEMmLmQcYACC51wowADgAQABI6wxQw4N4WABg1AVoAHAAeACAAQCIAQCQAQGYAQGgAQGoAQOwAQC5AZqZmZmZmbk_wQGamZmZmZm5P8kBlLvCrpYq_j_ZAQAAAAAAAPA_4AEA9QEAAIA-&ccd=%21RgZ9PAjrkOsBEMmLmQcYudcKIAA.&udj=uf%28%27a%27%2C+129071%2C+1399470039%29%3Buf%28%27c%27%2C+3852395%2C+1399470039%29%3Buf%28%27r%27%2C+15091145%2C+1399470039%29%3B&vpid=366&apid=165057&referrer=http%3A%2F%2Fs1.gravyseals.com%2Fserve%3Fpid%3D2136%26z%3D94051%26if%3D1%26cb%3D555139417%26s%3DLT_E3519311-518B-4B38-BBBE-3A2DE2A85909%26click%3D&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "fra1.ib.adnxs.com/if?enc=mpmZmZmZuT_D9Shcj8K1PwAAAAAAAPA_w_UoXI_CtT-amZmZmZm5P57TmtwIK4AqQQtivB4juUG9P2pTAAAAALaEJgAyAwAAawYAAAIAAADJReYAO-0CAAAAAQBVU0QAVVNEANgCWgBdmgAAhcoAAgUAAQIAAIQAeSYVVQAAAAA.&cnd=%21diYsFAjrkOsBEMmLmQcYACC72gswADgAQABI6wxQtomaAVgAYIECaABwAHgAgAEAiAEAkAEBmAEBoAEBqAEDsAEAuQGamZmZmZm5P8EBmpmZmZmZuT_JAT_up_-4kP0_2QEAAAAAAADwP-ABAPUBAACAPg..&ccd=%21TAaWPAjrkOsBEMmLmQcYu9oLIAA.&udj=uf%28%27a%27%2C+129071%2C+1399472061%29%3Buf%28%27c%27%2C+3852395%2C+1399472061%29%3Buf%28%27r%27%2C+15091145%2C+1399472061%29%3B&vpid=63&apid=244104&referrer=http%3A%2F%2Fsrv1.mediads.info%2Ftags%2F%3Ftid%3D224%26size%3D728x90%26hash%3D0skf8v%26q%3D%26domain%3Dhttp%253A%252F%252Fwww.businessweek.com%252Fnews%252F2014-05-07%252Fthai-premier-yingluck-ousted-after-court-rules-she-abused-power%267YtZmAtm%3D594_728x90_0&media_subtypes=1&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ams1.ib.adnxs.com/if?enc=MzMzMzMzwz_B9Shcj8K9P1pkO99PjfM_wfUoXI_CvT8zMzMzMzPDP1b7c1RCwOsFILHx8t2YmhxPuGdTAAAAAOatJAChBgAA2AcAAAIAAAClEuUAlK0FAAAAAQBVU0QAVVNEANgCWgCHqgAARGgAAgUAAQIAAIQAoCf8dgAAAAA.&cnd=%219yI1jQjq_ekBEKWllAcYACCU2xYwADgAQABI2A9Q5tuSAVgAYIgDaABwAHgAgAEAiAEAkAEBmAEBoAEBqAEDsAEAuQEzMzMzMzPDP8EBMzMzMzMzwz_JAbpMXe5cpv4_2QEAAAAAAADwP-ABAPUBmpmZPg..&ccd=%21jAYfQQjq_ekBEKWllAcYlNsWIAA.&udj=uf%28%27a%27%2C+276362%2C+1399306319%29%3Buf%28%27c%27%2C+3833578%2C+1399306319%29%3Buf%28%27r%27%2C+15012517%2C+1399306319%29%3B&vpid=661&referrer=http%3A%2F%2Fz1.zedo.com%2Fclient%2Fz1%2Fff2.html%3Fn%3D1468%3Bc%3D984%3Bs%3D736%3Bd%3D14%3Bw%3D728%3Bh%3D90&media_subtypes=1&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ams1.ib.adnxs.com/if?enc=mpmZmZmZuT_D9Shcj8K1P8l2vp8aL80_w_UoXI_CtT-amZmZmZm5Pwnqx8TJMJQq-A3pA9ZuRl96sGpTAAAAAG_pEQCTBAAAawYAAAIAAADJReYAvx4DAAAAAQBVU0QAVVNEANgCWgAPBgAA9N8AAgUAAQIAAIYA1CpUFwAAAAA.&cnd=%21yCUjAwjrkOsBEMmLmQcYACC_vQwwBDgAQABI6wxQ79JHWABgkAVoAHAAeACAAQCIAQCQAQGYAQGgARKoAQOwAQC5AZqZmZmZmbk_wQGamZmZmZm5P8kBIrJoWKry_T_ZAQAAAAAAAPA_4AEA9QEAAIA-&ccd=%21NAY5PAjrkOsBEMmLmQcYv70MIAA.&udj=uf%28%27a%27%2C+129071%2C+1399500922%29%3Buf%28%27c%27%2C+3852395%2C+1399500922%29%3Buf%28%27r%27%2C+15091145%2C+1399500922%29%3B&vpid=238&apid=147686&referrer=www.farsi1hd.com&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    },
+    {
+      "url": "ams1.ib.adnxs.com/if?enc=MzMzMzMzwz-xne-nxku_PxKDwMqhRe4_sZ3vp8ZLvz8zMzMzMzPDP6ovBtiI0yoC9jAveKCU5x09XWhTAAAAAFvsJwBoCAAA2AcAAAIAAAClEuUAlY4FAAAAAQBVU0QAVVNEANgCWgCUdQAAidkAAgUAAQIAAIwAqiZtOAAAAAA.&cnd=%21TyDKQgjq_ekBEKWllAcYACCVnRYwADgAQABI2A9Q29ifAVgAYJYEaABwAHgAgAEAiAEAkAEBmAEBoAEBqAEDsAEAuQEzMzMzMzPDP8EBMzMzMzMzwz_JAbhNA4BCDQBA2QEAAAAAAADwP-ABAPUBmpmZPg..&ccd=%21TwYsQAjq_ekBEKWllAcYlZ0WIAA.&udj=uf%28%27a%27%2C+276362%2C+1399348541%29%3Buf%28%27c%27%2C+3833578%2C+1399348541%29%3Buf%28%27r%27%2C+15012517%2C+1399348541%29%3B&vpid=1058&apid=209734&referrer=http%3A%2F%2Foptimized-by.rubiconproject.com%2Fa%2F9852%2F26428%2F104466-2.html%3F%26cb%3D0.2495494693827267%26tk_st%3D1%26rf%3Dhttp%253A%2F%2Fwww.telegraaf.nl%2F%26rp_s%3Dc%26p_pos%3Datf%26p_screen_res%3D1536x864&media_subtypes=1&ct=0&dlo=1",
+      "ground_truth": "phish",
+      "final_prediction": "legitimate",
+      "trials": [
+        {
+          "raw": " \n\n### ANSWER ###\n\nlegitimate\n\n###",
+          "extracted": "legitimate"
+        }
+      ]
+    }
+  ]
+}
