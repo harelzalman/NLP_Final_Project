@@ -23,7 +23,7 @@ BASE_PROMPT = (
    # 0 No Prompt
    "",
    # 1 Generic Prompt
-   "Decide whether the following URL is legitimate or phish."
+   "Decide whether the following Telegram message is 'spam' or 'ham'."
 
 )
 SYS_PROMPTS = BASE_PROMPT
