@@ -1,0 +1,214 @@
+{
+  "runs": [
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish.",
+      "counts": {
+        "TP": 113,
+        "FP": 23,
+        "TN": 102,
+        "FN": 12,
+        "unknown": 0
+      },
+      "precision": 0.8308823529411765,
+      "recall": 0.904,
+      "f1": 0.8659003831417624,
+      "fpr": 0.184,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Analyse the URL in four stages\u2014host, path, query, then overall\u2014flagging IP hosts, high-risk TLDs, suspicious keywords, and obfuscated encodings before reaching a verdict of legitimate or phish.",
+      "counts": {
+        "TP": 120,
+        "FP": 31,
+        "TN": 94,
+        "FN": 5,
+        "unknown": 0
+      },
+      "precision": 0.7947019867549668,
+      "recall": 0.96,
+      "f1": 0.8695652173913043,
+      "fpr": 0.248,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Here are four labeled examples to guide your reasoning:\nlegitimate: https://www.amazon.com/gp/help/customer/display.html\nlegitimate: https://accounts.google.com/ServiceLogin\nphish:      http://secure-amazon-login.com.verify-pay.info/login.php\nphish:      http://google-account.security-update.xyz/authenticate\nUse the patterns you observe to judge the next URL.",
+      "counts": {
+        "TP": 120,
+        "FP": 38,
+        "TN": 87,
+        "FN": 5,
+        "unknown": 0
+      },
+      "precision": 0.759493670886076,
+      "recall": 0.96,
+      "f1": 0.8480565371024735,
+      "fpr": 0.304,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Silently consider red flags such as brand spoofing, punycode, and unusual subdomains, then decide whether the URL is legitimate or phish.",
+      "counts": {
+        "TP": 121,
+        "FP": 43,
+        "TN": 82,
+        "FN": 4,
+        "unknown": 0
+      },
+      "precision": 0.7378048780487805,
+      "recall": 0.968,
+      "f1": 0.8373702422145328,
+      "fpr": 0.344,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Assign one point each for an IP host, more than three subdomains, a high-risk keyword, or a path longer than 50 characters; two or more points indicates phishing.",
+      "counts": {
+        "TP": 125,
+        "FP": 64,
+        "TN": 61,
+        "FN": 0,
+        "unknown": 0
+      },
+      "precision": 0.6613756613756614,
+      "recall": 1.0,
+      "f1": 0.7961783439490446,
+      "fpr": 0.512,
+      "num_samples": 250
+    },
+    {
+      "prompt": "If any structural heuristic\u2014IP host, recent registration, or risky TLD\u2014applies, treat the URL as phishing; otherwise, inspect phishing keywords before deciding.",
+      "counts": {
+        "TP": 117,
+        "FP": 34,
+        "TN": 91,
+        "FN": 8,
+        "unknown": 0
+      },
+      "precision": 0.7748344370860927,
+      "recall": 0.936,
+      "f1": 0.8478260869565217,
+      "fpr": 0.272,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Base your judgment only on the characters visible in the URL; ignore WHOIS, page content, and external reputation feeds.",
+      "counts": {
+        "TP": 121,
+        "FP": 37,
+        "TN": 88,
+        "FN": 4,
+        "unknown": 0
+      },
+      "precision": 0.7658227848101266,
+      "recall": 0.968,
+      "f1": 0.8551236749116607,
+      "fpr": 0.296,
+      "num_samples": 250
+    },
+    {
+      "prompt": "List domain and path tokens, mark any that match risky words, and then determine whether the URL is legitimate or phish.",
+      "counts": {
+        "TP": 112,
+        "FP": 30,
+        "TN": 95,
+        "FN": 13,
+        "unknown": 0
+      },
+      "precision": 0.7887323943661971,
+      "recall": 0.896,
+      "f1": 0.8389513108614232,
+      "fpr": 0.24,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Treat random-looking hosts or paths with high entropy and unusually long URLs as strong phishing indicators when making your decision.",
+      "counts": {
+        "TP": 124,
+        "FP": 62,
+        "TN": 63,
+        "FN": 1,
+        "unknown": 0
+      },
+      "precision": 0.6666666666666666,
+      "recall": 0.992,
+      "f1": 0.797427652733119,
+      "fpr": 0.496,
+      "num_samples": 250
+    },
+    {
+      "prompt": "First estimate similarity to a phishing corpus using a TF-IDF-like approach, then adjust with heuristic penalties such as IP host or punycode to reach a final judgment.Decide whether the following URL is legitimate or phish. Only label a URL as phish if it shows clear indicators such as brand impersonation, suspicious keywords, high-risk TLDs, or unusual subdomain depth; if evidence is weak or ambiguous, classify it as legitimate.",
+      "counts": {
+        "TP": 92,
+        "FP": 10,
+        "TN": 115,
+        "FN": 33,
+        "unknown": 0
+      },
+      "precision": 0.9019607843137255,
+      "recall": 0.736,
+      "f1": 0.8105726872246696,
+      "fpr": 0.08,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish. If you detect at least two phishing red flags (e.g., punycode, IP address host, credential keywords), mark it as phish; otherwise treat it as legitimate.",
+      "counts": {
+        "TP": 99,
+        "FP": 9,
+        "TN": 116,
+        "FN": 26,
+        "unknown": 0
+      },
+      "precision": 0.9166666666666666,
+      "recall": 0.792,
+      "f1": 0.8497854077253219,
+      "fpr": 0.072,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish. Flag as phish only when both a sensitive keyword (login, verify, update, reset) AND a structural anomaly (IP host, high-risk TLD, more than three subdomains) are present.",
+      "counts": {
+        "TP": 50,
+        "FP": 0,
+        "TN": 125,
+        "FN": 75,
+        "unknown": 0
+      },
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285715,
+      "fpr": 0.0,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish. Give one point for each of these features: suspicious keyword, risky TLD, IP host, path longer than 60 characters. Require at least two points before labelling phish; otherwise classify as legitimate.",
+      "counts": {
+        "TP": 81,
+        "FP": 6,
+        "TN": 119,
+        "FN": 44,
+        "unknown": 0
+      },
+      "precision": 0.9310344827586207,
+      "recall": 0.648,
+      "f1": 0.7641509433962264,
+      "fpr": 0.048,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish. When uncertain, err on the side of legitimate and classify phishing only when strong evidence exists.",
+      "counts": {
+        "TP": 83,
+        "FP": 7,
+        "TN": 118,
+        "FN": 42,
+        "unknown": 0
+      },
+      "precision": 0.9222222222222223,
+      "recall": 0.664,
+      "f1": 0.7720930232558141,
+      "fpr": 0.056,
+      "num_samples": 250
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "runs": [
+    {
+      "prompt": "",
+      "counts": {
+        "TP": 123,
+        "FP": 71,
+        "TN": 54,
+        "FN": 2,
+        "unknown": 0
+      },
+      "precision": 0.634020618556701,
+      "recall": 0.984,
+      "f1": 0.7711598746081504,
+      "fpr": 0.568,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following URL is legitimate or phish.",
+      "counts": {
+        "TP": 121,
+        "FP": 8,
+        "TN": 117,
+        "FN": 4,
+        "unknown": 0
+      },
+      "precision": 0.937984496124031,
+      "recall": 0.968,
+      "f1": 0.952755905511811,
+      "fpr": 0.064,
+      "num_samples": 250
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 """
 train_lora4bit.py  –  4-bit QLoRA fine-tuning for Meta-Llama-3-8B-Instruct
 ---------------------------------------------------------------------------
-• Dataset : JSON-Lines file  phish_urls_train.json   (1 000 rows)
+• Dataset : JSON-Lines file (1 000 rows)
 • Prompt  : "instruction \\n URL: ... \\n Answer: ..."
 • Tokenise now → PyTorch tensors (so Trainer never touches Arrow)
 • Adapter : r=16, α=32 on q/v/o projections   (11 M trainable params)
@@ -22,8 +22,12 @@ from datasets import load_dataset
 
 # ───── paths ──────────────────────────────────────────────────────────
 BASE_MODEL = r"text-generation-webui\user_data\models\meta-llama3-8b-instruct"
-DATA_FILE  = r"text-generation-webui\user_data\training\datasets\phish_urls_train.json"
-OUT_DIR    = r"text-generation-webui\user_data\loras\NOUI\lora-phish-4bit"
+#DATA_FILE  = r"text-generation-webui\user_data\training\datasets\urls_train.json"
+#DATA_FILE  = r"text-generation-webui\user_data\training\datasets\telegram_train.json"
+DATA_FILE  = r"text-generation-webui\user_data\training\datasets\twitter_train.json"
+#OUT_DIR    = r"text-generation-webui\user_data\loras\lora-url-4bit"
+#OUT_DIR    = r"text-generation-webui\user_data\loras\lora-telegram-4bit"
+OUT_DIR    = r"text-generation-webui\user_data\loras\lora-twitter-4bit"
 
 # ───── tokenizer ─────────────────────────────────────────────────────
 tok = AutoTokenizer.from_pretrained(BASE_MODEL, use_fast=True)
