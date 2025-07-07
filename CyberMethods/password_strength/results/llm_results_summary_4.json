@@ -1,0 +1,28 @@
+{
+  "prompt": "Check how many different character types the password contains (lowercase, uppercase, digits, symbols). More types generally mean a stronger password.",
+  "confusion_matrix": [
+    [
+      15,
+      16,
+      3
+    ],
+    [
+      48,
+      93,
+      44
+    ],
+    [
+      0,
+      2,
+      29
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.548,
+  "precision": 0.485837341100499,
+  "recall": 0.6264543480862267,
+  "f1": 0.4932376012200658,
+  "fpr": 0.2379190570971393,
+  "fnr": 0.37354565191377337
+}

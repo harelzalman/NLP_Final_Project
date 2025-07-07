@@ -1,0 +1,28 @@
+{
+  "prompt": "Evaluate the length of the password: passwords under 8 characters are often weak; those between 8 and 12 characters medium; above 12 characters strong.",
+  "confusion_matrix": [
+    [
+      18,
+      11,
+      5
+    ],
+    [
+      19,
+      65,
+      101
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.456,
+  "precision": 0.5226756722146657,
+  "recall": 0.6269210386857446,
+  "f1": 0.4580580545854951,
+  "fpr": 0.24707066567797162,
+  "fnr": 0.3730789613142555
+}

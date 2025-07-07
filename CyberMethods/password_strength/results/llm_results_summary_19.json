@@ -1,0 +1,28 @@
+{
+  "prompt": "Identify large contiguous segments of a single character class (letters, digits, symbols): long homogeneous blocks reduce entropy and strength.",
+  "confusion_matrix": [
+    [
+      34,
+      0,
+      0
+    ],
+    [
+      180,
+      0,
+      5
+    ],
+    [
+      4,
+      0,
+      27
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.244,
+  "precision": 0.33323776758409784,
+  "recall": 0.6236559139784946,
+  "f1": 0.37566137566137564,
+  "fpr": 0.2915609673600541,
+  "fnr": 0.3763440860215053
+}

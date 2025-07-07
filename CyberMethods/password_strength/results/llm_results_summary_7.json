@@ -1,0 +1,28 @@
+{
+  "prompt": "Check for repeated characters (e.g., 'aaaa') or sequential runs (e.g., '1234', 'abcd'). Sequences and repeats reduce password strength.",
+  "confusion_matrix": [
+    [
+      7,
+      23,
+      4
+    ],
+    [
+      52,
+      68,
+      65
+    ],
+    [
+      1,
+      0,
+      30
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.42,
+  "precision": 0.388983238983239,
+  "recall": 0.513730618664205,
+  "f1": 0.3677427516465444,
+  "fpr": 0.30476167245573643,
+  "fnr": 0.486269381335795
+}

@@ -1,0 +1,28 @@
+{
+  "prompt": "Perform a comprehensive heuristic analysis\u2014evaluate length, character-type variety, entropy estimates, dictionary words (including leet substitutions), personal-info patterns, keyboard adjacency and sequences, homogeneous segments, common date/year formats, n-gram frequencies, pronounceability, palindromes, symbol/digit placement, and breach-list occurrences\u2014and combine all findings into a final strength rating of 'weak', 'medium', or 'strong'.",
+  "confusion_matrix": [
+    [
+      4,
+      27,
+      3
+    ],
+    [
+      3,
+      116,
+      66
+    ],
+    [
+      0,
+      1,
+      30
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.6,
+  "precision": 0.56000481000481,
+  "recall": 0.5708053404448091,
+  "f1": 0.4539425286700845,
+  "fpr": 0.25324220426960153,
+  "fnr": 0.4291946595551908
+}

@@ -1,0 +1,28 @@
+{
+  "prompt": "Identify any dictionary words or common substrings (e.g., 'password', 'admin'). Presence of such words should lower the strength rating.",
+  "confusion_matrix": [
+    [
+      8,
+      8,
+      18
+    ],
+    [
+      21,
+      11,
+      153
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.2,
+  "precision": 0.3360915946404078,
+  "recall": 0.4315845257021727,
+  "f1": 0.20930193727467147,
+  "fpr": 0.3337070210357882,
+  "fnr": 0.5684154742978272
+}

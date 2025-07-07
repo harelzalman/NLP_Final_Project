@@ -1,0 +1,28 @@
+{
+  "prompt": "Cross-reference against known breach corpora: if a complex password has never appeared in large breach lists, lower the chance of false weak labels, remembering that true weak cases are rarer.",
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      34
+    ],
+    [
+      2,
+      0,
+      183
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.124,
+  "precision": 0.041666666666666664,
+  "recall": 0.3333333333333333,
+  "f1": 0.07407407407407407,
+  "fpr": 0.33337561305597835,
+  "fnr": 0.6666666666666666
+}

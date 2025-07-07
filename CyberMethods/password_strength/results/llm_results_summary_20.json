@@ -1,0 +1,28 @@
+{
+  "prompt": "Evaluate pronounceability by checking vowel\u2013consonant patterns: highly pronounceable strings are often dictionary\u2010derived and should lean weaker.",
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      34
+    ],
+    [
+      0,
+      0,
+      185
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.124,
+  "precision": 0.04133333333333333,
+  "recall": 0.3333333333333333,
+  "f1": 0.07354685646500593,
+  "fpr": 0.3333333333333333,
+  "fnr": 0.6666666666666666
+}

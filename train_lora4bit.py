@@ -23,11 +23,9 @@ from datasets import load_dataset
 # ───── paths ──────────────────────────────────────────────────────────
 BASE_MODEL = r"text-generation-webui\user_data\models\meta-llama3-8b-instruct"
 #DATA_FILE  = r"text-generation-webui\user_data\training\datasets\urls_train.json"
-#DATA_FILE  = r"text-generation-webui\user_data\training\datasets\telegram_train.json"
-DATA_FILE  = r"text-generation-webui\user_data\training\datasets\twitter_train.json"
+DATA_FILE  = r"text-generation-webui\user_data\training\datasets\password_train.json"
 #OUT_DIR    = r"text-generation-webui\user_data\loras\lora-url-4bit"
-#OUT_DIR    = r"text-generation-webui\user_data\loras\lora-telegram-4bit"
-OUT_DIR    = r"text-generation-webui\user_data\loras\lora-twitter-4bit"
+OUT_DIR    = r"text-generation-webui\user_data\loras\lora-password-4bit"
 
 # ───── tokenizer ─────────────────────────────────────────────────────
 tok = AutoTokenizer.from_pretrained(BASE_MODEL, use_fast=True)
@@ -38,8 +36,8 @@ def to_prompt(row):
     return {
         "text": (
             f"{row['instruction'].strip()}\n"
-            f"URL: {row['input'].strip()}\n"
-            f"Answer: {row['output'].strip()}{tok.eos_token}"
+            f"{row['input'].strip()}\n"
+            f"{row['output'].strip()}{tok.eos_token}"
         )
     }
 
@@ -53,7 +51,8 @@ def tokenize(batch):
     return tok(batch["text"],
                truncation=True,
                padding="max_length",
-               max_length=256)
+               max_length=64)           #URL/Password
+               #max_length=256)         #Telegram
 
 ds = ds.map(tokenize, batched=True, remove_columns=["text"])
 ds.set_format(type="torch")          # DataLoader now sees real tensors

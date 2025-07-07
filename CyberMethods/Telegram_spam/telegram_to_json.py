@@ -14,6 +14,14 @@ BASE_PROMPT = (
     "Decide whether the following Telegram message is 'spam' or 'ham'."
 )
 
+prompt = (
+    "### SYSTEM ###\n"
+    f"{BASE_PROMPT}\n"
+    "Respond with exactly ONE word 'spam' or 'ham' after ### ANSWER ###, no other tokens.\n\n"
+
+)
+
+
 out_path = Path(
     "../../text-generation-webui/user_data/training/datasets/telegram_train.json"
 )
@@ -25,11 +33,16 @@ with open(out_path, "w", encoding="utf-8") as f:
         lbl = row["label"].strip().lower()
         if lbl is None:
             continue
+
+        INPUT = ("### MESSAGE ###\n\n"
+                 f"{row['message'].strip()}\n\n"
+                 "### ANSWER ###\n\n")
         rec = {
-            "instruction": BASE_PROMPT,
-            "input":       row["message"].strip(),
+            "instruction": prompt,
+            "input":       INPUT,
             "output":      lbl,
         }
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 print(f"Wrote dataset to {out_path} ({len(df)} rows processed)")
+

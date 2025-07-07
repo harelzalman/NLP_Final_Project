@@ -1,0 +1,34 @@
+{
+  "runs": [
+    {
+      "prompt": "",
+      "counts": {
+        "TP": 58,
+        "FP": 15,
+        "TN": 110,
+        "FN": 67,
+        "unknown": 0
+      },
+      "precision": 0.7945205479452054,
+      "recall": 0.464,
+      "f1": 0.5858585858585859,
+      "fpr": 0.12,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'.",
+      "counts": {
+        "TP": 28,
+        "FP": 0,
+        "TN": 125,
+        "FN": 97,
+        "unknown": 0
+      },
+      "precision": 1.0,
+      "recall": 0.224,
+      "f1": 0.36601307189542487,
+      "fpr": 0.0,
+      "num_samples": 250
+    }
+  ]
+}

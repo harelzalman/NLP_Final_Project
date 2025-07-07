@@ -1,0 +1,648 @@
+{
+  "runs": [
+    {
+      "prompt": "",
+      "confusion_matrix": [
+        [
+          5,
+          1,
+          28
+        ],
+        [
+          36,
+          5,
+          144
+        ],
+        [
+          24,
+          0,
+          7
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.068,
+      "precision": 0.316454185169269,
+      "recall": 0.13329743405644734,
+      "f1": 0.07334426287305869,
+      "fpr": 0.35951684033875814,
+      "fnr": 0.8667025659435525
+    },
+    {
+      "prompt": "Decide whether the following password is 'weak', 'medium', or 'strong'.",
+      "confusion_matrix": [
+        [
+          3,
+          23,
+          8
+        ],
+        [
+          2,
+          40,
+          143
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.296,
+      "precision": 0.46841676841676844,
+      "recall": 0.4348171701112878,
+      "f1": 0.255835537071339,
+      "fpr": 0.3508677100001301,
+      "fnr": 0.5651828298887122
+    },
+    {
+      "prompt": "Evaluate the length of the password: passwords under 8 characters are often weak; those between 8 and 12 characters medium; above 12 characters strong.",
+      "confusion_matrix": [
+        [
+          18,
+          11,
+          5
+        ],
+        [
+          19,
+          65,
+          101
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.456,
+      "precision": 0.5226756722146657,
+      "recall": 0.6269210386857446,
+      "f1": 0.4580580545854951,
+      "fpr": 0.24707066567797162,
+      "fnr": 0.3730789613142555
+    },
+    {
+      "prompt": "Check how many different character types the password contains (lowercase, uppercase, digits, symbols). More types generally mean a stronger password.",
+      "confusion_matrix": [
+        [
+          15,
+          16,
+          3
+        ],
+        [
+          48,
+          93,
+          44
+        ],
+        [
+          0,
+          2,
+          29
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.548,
+      "precision": 0.485837341100499,
+      "recall": 0.6264543480862267,
+      "f1": 0.4932376012200658,
+      "fpr": 0.2379190570971393,
+      "fnr": 0.37354565191377337
+    },
+    {
+      "prompt": "Identify any dictionary words or common substrings (e.g., 'password', 'admin'). Presence of such words should lower the strength rating.",
+      "confusion_matrix": [
+        [
+          8,
+          8,
+          18
+        ],
+        [
+          21,
+          11,
+          153
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.2,
+      "precision": 0.3360915946404078,
+      "recall": 0.4315845257021727,
+      "f1": 0.20930193727467147,
+      "fpr": 0.3337070210357882,
+      "fnr": 0.5684154742978272
+    },
+    {
+      "prompt": "Detect common patterns or leetspeak substitutions (e.g., 'p@ssw0rd', '1234'). If these are present, label the password as weaker.",
+      "confusion_matrix": [
+        [
+          4,
+          22,
+          8
+        ],
+        [
+          6,
+          62,
+          117
+        ],
+        [
+          2,
+          0,
+          29
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.38,
+      "precision": 0.41991341991341996,
+      "recall": 0.4627553549754688,
+      "f1": 0.3161310332475679,
+      "fpr": 0.315424943735446,
+      "fnr": 0.5372446450245311
+    },
+    {
+      "prompt": "Check for repeated characters (e.g., 'aaaa') or sequential runs (e.g., '1234', 'abcd'). Sequences and repeats reduce password strength.",
+      "confusion_matrix": [
+        [
+          7,
+          23,
+          4
+        ],
+        [
+          52,
+          68,
+          65
+        ],
+        [
+          1,
+          0,
+          30
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.42,
+      "precision": 0.388983238983239,
+      "recall": 0.513730618664205,
+      "f1": 0.3677427516465444,
+      "fpr": 0.30476167245573643,
+      "fnr": 0.486269381335795
+    },
+    {
+      "prompt": "Estimate the password\u2019s entropy based on length and character variety: higher estimated entropy indicates stronger passwords.",
+      "confusion_matrix": [
+        [
+          17,
+          11,
+          6
+        ],
+        [
+          32,
+          67,
+          86
+        ],
+        [
+          0,
+          2,
+          29
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.452,
+      "precision": 0.4747027323326025,
+      "recall": 0.5992153443766347,
+      "f1": 0.43229262631459303,
+      "fpr": 0.25607982411635377,
+      "fnr": 0.40078465562336535
+    },
+    {
+      "prompt": "Assess whether the password follows keyboard patterns (e.g., 'qwerty', 'asdfgh'). Such patterns are easy to guess and should be marked weak.",
+      "confusion_matrix": [
+        [
+          3,
+          25,
+          6
+        ],
+        [
+          7,
+          72,
+          106
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.424,
+      "precision": 0.41968375267344343,
+      "recall": 0.49247482776894547,
+      "f1": 0.33444125777214556,
+      "fpr": 0.30947943904564906,
+      "fnr": 0.5075251722310545
+    },
+    {
+      "prompt": "Analyze where symbols and digits appear: random placement boosts strength; predictable placements (e.g., only at the end) reduce it.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          185
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.04133333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.07354685646500593,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Combine all the above analyses into an overall strength rating of 'weak', 'medium', or 'strong'.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          185
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.04133333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.07354685646500593,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Verify high-entropy segments: if long, truly random sequences appear, bias toward 'strong' over 'medium' or 'weak', given most passwords are medium.",
+      "confusion_matrix": [
+        [
+          0,
+          16,
+          18
+        ],
+        [
+          0,
+          24,
+          161
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.22,
+      "precision": 0.2492063492063492,
+      "recall": 0.37657657657657656,
+      "f1": 0.15686491470723837,
+      "fpr": 0.3545018147757874,
+      "fnr": 0.6234234234234234
+    },
+    {
+      "prompt": "Cross-reference against known breach corpora: if a complex password has never appeared in large breach lists, lower the chance of false weak labels, remembering that true weak cases are rarer.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          2,
+          0,
+          183
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.041666666666666664,
+      "recall": 0.3333333333333333,
+      "f1": 0.07407407407407407,
+      "fpr": 0.33337561305597835,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Recognize uncommon character distributions (e.g., base64-style strings): treat these as 'strong' even if length is borderline, because mislabeling a rare strong as weak is costly.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          185
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.04133333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.07354685646500593,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Detect personal-info patterns (birthdates, names, phone numbers): flag as 'weak' regardless, since these guessable cases\u2014though less frequent\u2014must be caught.",
+      "confusion_matrix": [
+        [
+          34,
+          0,
+          0
+        ],
+        [
+          185,
+          0,
+          0
+        ],
+        [
+          29,
+          0,
+          2
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.144,
+      "precision": 0.3790322580645162,
+      "recall": 0.3548387096774193,
+      "f1": 0.12078229099505694,
+      "fpr": 0.3302469135802469,
+      "fnr": 0.6451612903225806
+    },
+    {
+      "prompt": "Identify short dictionary words with substitutions (e.g., 'P@ss', 'Adm1n'): even if leetified, mark 'weak', because missing these rare weak examples increases risk.",
+      "confusion_matrix": [
+        [
+          34,
+          0,
+          0
+        ],
+        [
+          185,
+          0,
+          0
+        ],
+        [
+          31,
+          0,
+          0
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.136,
+      "precision": 0.04533333333333334,
+      "recall": 0.3333333333333333,
+      "f1": 0.07981220657276995,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Search for common date or year formats (e.g., '1987', '2025'): embedded dates drastically lower security and should always score 'weak', despite class imbalance.",
+      "confusion_matrix": [
+        [
+          34,
+          0,
+          0
+        ],
+        [
+          185,
+          0,
+          0
+        ],
+        [
+          31,
+          0,
+          0
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.136,
+      "precision": 0.04533333333333334,
+      "recall": 0.3333333333333333,
+      "f1": 0.07981220657276995,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Analyze keyboard adjacency patterns: flag repeated runs along rows or columns (e.g., 'asdf', '1234') as weaker due to guessability.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          185
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.04133333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.07354685646500593,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Identify large contiguous segments of a single character class (letters, digits, symbols): long homogeneous blocks reduce entropy and strength.",
+      "confusion_matrix": [
+        [
+          34,
+          0,
+          0
+        ],
+        [
+          180,
+          0,
+          5
+        ],
+        [
+          4,
+          0,
+          27
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.244,
+      "precision": 0.33323776758409784,
+      "recall": 0.6236559139784946,
+      "f1": 0.37566137566137564,
+      "fpr": 0.2915609673600541,
+      "fnr": 0.3763440860215053
+    },
+    {
+      "prompt": "Evaluate pronounceability by checking vowel\u2013consonant patterns: highly pronounceable strings are often dictionary\u2010derived and should lean weaker.",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          185
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.124,
+      "precision": 0.04133333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.07354685646500593,
+      "fpr": 0.3333333333333333,
+      "fnr": 0.6666666666666666
+    },
+    {
+      "prompt": "Score the password\u2019s bigram/trigram frequencies against an English corpus: high\u2010frequency n-grams indicate predictability and lower strength.",
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          29
+        ],
+        [
+          9,
+          1,
+          175
+        ],
+        [
+          1,
+          0,
+          30
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.14,
+      "precision": 0.3046398046398046,
+      "recall": 0.36359813323760193,
+      "f1": 0.1345923160573549,
+      "fpr": 0.33106258699866004,
+      "fnr": 0.6364018667623981
+    },
+    {
+      "prompt": "Detect palindromic or mirrored substrings (e.g., 'abba', '1221'): these symmetrical patterns reduce randomness and should decrease strength.",
+      "confusion_matrix": [
+        [
+          31,
+          0,
+          3
+        ],
+        [
+          160,
+          0,
+          25
+        ],
+        [
+          29,
+          0,
+          2
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.132,
+      "precision": 0.0691919191919192,
+      "recall": 0.325426944971537,
+      "f1": 0.10322275289359321,
+      "fpr": 0.3342846270928463,
+      "fnr": 0.6745730550284629
+    },
+    {
+      "prompt": "Perform a comprehensive heuristic analysis\u2014evaluate length, character-type variety, entropy estimates, dictionary words (including leet substitutions), personal-info patterns, keyboard adjacency and sequences, homogeneous segments, common date/year formats, n-gram frequencies, pronounceability, palindromes, symbol/digit placement, and breach-list occurrences\u2014and combine all findings into a final strength rating of 'weak', 'medium', or 'strong'.",
+      "confusion_matrix": [
+        [
+          4,
+          27,
+          3
+        ],
+        [
+          3,
+          116,
+          66
+        ],
+        [
+          0,
+          1,
+          30
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.6,
+      "precision": 0.56000481000481,
+      "recall": 0.5708053404448091,
+      "f1": 0.4539425286700845,
+      "fpr": 0.25324220426960153,
+      "fnr": 0.4291946595551908
+    }
+  ]
+}

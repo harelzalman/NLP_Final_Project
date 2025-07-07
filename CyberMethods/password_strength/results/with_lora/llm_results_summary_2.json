@@ -1,0 +1,28 @@
+{
+  "prompt": "Decide whether the following password is 'weak', 'medium', or 'strong'.",
+  "confusion_matrix": [
+    [
+      25,
+      9,
+      0
+    ],
+    [
+      0,
+      184,
+      1
+    ],
+    [
+      0,
+      2,
+      29
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.952,
+  "precision": 0.9700854700854701,
+  "recall": 0.8884575277364651,
+  "f1": 0.9222327839604568,
+  "fpr": 0.05793232642547711,
+  "fnr": 0.11154247226353488
+}

@@ -1,0 +1,28 @@
+{
+  "prompt": "Detect palindromic or mirrored substrings (e.g., 'abba', '1221'): these symmetrical patterns reduce randomness and should decrease strength.",
+  "confusion_matrix": [
+    [
+      31,
+      0,
+      3
+    ],
+    [
+      160,
+      0,
+      25
+    ],
+    [
+      29,
+      0,
+      2
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.132,
+  "precision": 0.0691919191919192,
+  "recall": 0.325426944971537,
+  "f1": 0.10322275289359321,
+  "fpr": 0.3342846270928463,
+  "fnr": 0.6745730550284629
+}

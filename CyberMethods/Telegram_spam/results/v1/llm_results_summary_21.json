@@ -1,0 +1,2767 @@
+{
+  "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Ensure genuine personal or group conversation is labeled 'ham' to minimize false positives.",
+  "counts": {
+    "TP": 95,
+    "FP": 27,
+    "TN": 98,
+    "FN": 30,
+    "unknown": 0
+  },
+  "precision": 0.7786885245901639,
+  "recall": 0.76,
+  "f1": 0.7692307692307693,
+  "fpr": 0.216,
+  "num_samples": 250,
+  "per_message_results": [
+    {
+      "message": "\u1d21\u1d0f\u1d21 \u1d00\u0274\u1d1b\u029c\u1d07\u0280 \u1d21\u026a\u1d1b\u029c\u1d05\u0280\u1d00\u1d21 \u0493\u0280\u1d0f\u1d0d \u1d0d\u0280 brain torres \u026a\u1d0d s\u1d0f \u029c\u1d00\u1d18\u1d18\u028f \u0493\u1d0f\u0280 \u1d0d\u028f \u1d18\u1d00\u028f\u1d0d\u1d07\u0274\u1d1b \u1d1b\u1d0f\u1d05\u1d00\u028f \u026a \u1d21\u1d00s s\u1d04\u1d00\u1d0d\u1d0d\u1d07\u1d05 \u0299\u028f s\u1d0f \u1d0d\u1d00\u0274\u028f \u1d0d\u1d00\u0274\u1d00\u0262\u1d07\u0280 \u1d0f\u0274 \u1d1b\u026a\u029f\u029f \u026a \u1d0d\u1d07\u1d07\u1d1b \u1d1b\u029c\u026as \u0262\u1d0f\u1d0f\u1d05 \u1d0d\u1d00\u0274\u1d00\u0262\u1d07\u0280 s\u026a\u0280 \u026a\u1d0d s\u1d0f \u1d18\u0280\u1d0f\u1d1c\u1d05 \u1d0f\u0493 \u028f\u1d0f\u1d1c \u1d1b\u029c\u0280\u1d0f\u1d1c\u0262\u029c \u1d0f\u1d1c\u1d1b \u029f\u1d00s\u1d1b \u1d21\u1d07\u1d07\u1d0b \u026a \u029c\u1d00\u1d20\u1d07 \u0299\u1d07\u1d07\u0274 \u0262\u1d07\u1d1b\u1d1b\u026a\u0274\u0262 \u1d0d\u028f \u1d21\u026a\u1d1b\u029c\u1d05\u0280\u1d00\u1d21\u1d00\u029f \u0493\u0280\u1d0f\u1d0d \u1d0d\u028f \u026a\u0274\u1d20\u1d07s\u1d1b\u1d0d\u1d07\u0274\u1d1b \u026a s\u1d1b\u1d00\u0280\u1d1b\u1d07\u1d05 \u1d21\u026a\u1d1b\u029c $300and i got $3000 as my profit and \u0274\u1d0f\u1d21 \u026a\u1d0d \u1d00 \u0280\u026a\u1d04\u029c \u1d0d\u1d00\u0274 \u0274\u1d0f\u1d21 \u026a \u1d04\u1d00\u0274 s\u1d1b\u1d00\u0274\u1d05 \u0493\u1d0f\u0280 \u1d0d\u028f \u1d0f\u1d21\u0274 \u029c\u1d0f\u1d1cs\u1d07 \u1d00\u0274\u1d05 \u1d0d\u028f \u1d0f\u1d21\u0274 \u1d04\u1d00\u0280 \u1d1b\u029c\u1d00\u0274\u1d0b \u028f\u1d0f\u1d1c s\u026a\u0280 \u1d00\u0274\u1d05 \u0262\u1d0f\u1d05 \u1d0b\u1d07\u1d07\u1d18 \u0299\u029f\u1d07ss\u026a\u0274\u0262 \u028f\u1d0f\u1d1c \u028f\u1d0f\u1d1c \u1d04\u1d00\u0274 \u1d04\u1d0f\u0274\u1d1b\u1d00\u1d04\u1d1b \u029c\u026a\u1d0d \u026a\u0493 \u028f\u1d0f\u1d1c \u1d00\u0280\u1d07 \u026a\u0274\u1d1b\u1d07\u0280\u1d07s\u1d1b\u1d07\u1d05 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "they run it with their user account right? such like the script is located in usrbinscriptname and then login through tty and then run usrbinscriptname",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "okey doke im at home but not dressed cos laying around ill speak to you later bout times and stuff",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "what are you doing in langport sorry but ill probably be in bed by 9pm it sucks being ill at xmas when do you and go2sri lanka",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "test tom the conference in new york is held on may 18 and may 19 i can visit wharton the day before vince kaminski piazze thomas on 04 05 2000 08 40 55 am to vince j kaminski cc subject test vince i enjoyed talking with you yesterday and look forward to receiving information relative to your visit to campus tom piazze original message from vince j kaminski smtp vince j kaminski enron com sent tuesday april 04 2000 4 52 pm to piazzet wharton upenn edu subject testtest",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "new stock arrived of designer bridal wear sarees lahenga choli suit designer dresses dress materials ladies western outfit at sakshi amin marg rajkot",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "when will the real estate bubble burst live meeting july 21 st on alternative investments event date thursday july 21 st at 10 30 am est 2 30 pm est and 7 30 pm estwith top ranked alternative investment manager michael mansfield to register for this complimentary event go to http www forex day trading com forex online registration htm even warren buffett is negative on real estate the biggest financial bubble in history warren buffett the second richest man in the world recently sold his house in laguna for 3 5 million he joked it was on about 2 000 square feet of land maybe a twentieth of an acre and the house might cost about 500 000 if you wanted to replace it so the land sold for something like 60 million an acre if you want to r",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "are you ready to get it hello viagra is the 1 med to struggle with mens erectile dysfunction like one jokes sais it is stronq enouqh for a man but made for a woman orderinq viagra oniine is a very convinient fast and secure way miilions of peopie do it daily to save their privacy and money order here",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "mala math me hoti kt",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "oi when you gonna ring",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "amaze your partner with the talents in sexual area same medication low price everywhere i go i find a poet has been there before me assumptions are the termites of relationships disinterested intellectual curiosity is the life blood of real civilization the road to a friend s house is never long",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "free $25 bonus! start earning from home today!",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "please help my child dear sir mam i have send this email in order to recive some help i am a single father from italy and i have a big problem my 2 year child is cancer sick and i need money to treat him i don t ask for lots off money but as much as you want 1 2 i will be pleased this is my sweet boy nely nely pictures the pics say all the things if you have a hart and you are a father then please this is my paypal email address david horatiul 23 yahoo com thank you and i m very sorry for this email but i need help have a nice day and good bless you please help my boy",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "monaz: a child is a person who cant understand why someone would give away a perfectly good kitten doug larson ad get naughty sms tj to 56677",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ime: 63 mins approx",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc79\ud835\udc86\ud835\udc84\ud835\udc86\ud835\udc8a\ud835\udc97\ud835\udc8a\ud835\udc8f\ud835\udc88 $15450 \ud835\udc82\ud835\udc87\ud835\udc95\ud835\udc86\ud835\udc93 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8a\ud835\udc8f\ud835\udc88 $1800 \ud835\udc95\ud835\udc89\ud835\udc8a\ud835\udc94 \ud835\udc8a\ud835\udc94 \ud835\udc98\ud835\udc89\ud835\udc82\ud835\udc95 \ud835\udc8a \ud835\udc8f\ud835\udc86\ud835\udc97\ud835\udc86\ud835\udc93 \ud835\udc86\ud835\udc99\ud835\udc91\ud835\udc86\ud835\udc84\ud835\udc95\ud835\udc86\ud835\udc85 \ud835\udc7b\ud835\udc89\ud835\udc82\ud835\udc8f\ud835\udc8c\ud835\udc94 \ud835\udc87\ud835\udc90\ud835\udc93 \ud835\udc91\ud835\udc96\ud835\udc95\ud835\udc95\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc82\ud835\udc8f \ud835\udc96\ud835\udc8f\ud835\udc85\ud835\udc9a\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc94\ud835\udc8e\ud835\udc8a\ud835\udc8d\ud835\udc86 \ud835\udc90\ud835\udc8f \ud835\udc8e\ud835\udc9a \ud835\udc87\ud835\udc82\ud835\udc84\ud835\udc86 \ud835\udc9a\ud835\udc90\ud835\udc96 \ud835\udc84\ud835\udc82\ud835\udc8f \ud835\udc84\ud835\udc90\ud835\udc8f\ud835\udc95\ud835\udc82\ud835\udc84\ud835\udc95 \ud835\udc89\ud835\udc8a\ud835\udc8e \ud835\udc97\ud835\udc8a\ud835\udc82 \ud835\udc95\ud835\udc89\ud835\udc8a\ud835\udc94 \ud835\udc8d\ud835\udc8a\ud835\udc8f\ud835\udc8c \ud835\udc83\ud835\udc86\ud835\udc8d\ud835\udc90\ud835\udc98 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 @wilkinselliot",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\u20b9130 only 4android python course netflix premium crypto tab browser pro best carding course26bhy password black hat carding course \ud83d\udd30 bin spotify premium 3 months \ud83d\udd30free 80 chalega \ud83d\ude05\ud83d\ude05 bhi dunga bolo chaiye apko \ud83d\ude03\ud83d\ude0d escrow available with instagram hack script spotify and any vpn  premiums available",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "video conference with ross mcintyre nick we may have problems getting the vc location in houston on short notice we are currently on stand by we shall default if we have no other choice to a phone interview vince enron capital trade resources corp europe from nick mooney 04 18 2000 09 09 am to vince j kaminski hou ect ect cc mark tawney hou ect ect subject video conference with ross mcintyre vince you should have received an invitation through lotus notes which outlines the vc location for the conference call tomorrow it is schedule for 4 30 pm uk time 10 30 am houston time ross s background is from investment banking ex dresner bank he has a phd in mathematical and is currently with speedwell weather derivatives where he has been developing",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "viagra proven step to start something all over again looking for a specific medication let us know what you need there is an applause superior to that of the multitudes one s own winning isn t everything it is the only thing war is the continuation of politics by other means we are most alive when we re in love",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "dont think so it turns off like randomlly within 5min of opening",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "motivation hub \ud83e\udd34\u270c \ud83c\udfaf motivate yourself get success on your life quotes thoughts success aim \ud83c\udfaf \u0905\u092a\u0928\u0947 \u0906\u092a \u0915\u094b \u092a\u094d\u0930\u0947\u0930\u093f\u0924 \u0915\u0930\u0947\u0902 \u0914\u0930 \u0905\u092a\u0928\u0947 \u091c\u0940\u0935\u0928 \u092e\u0947\u0902 \u0938\u092b\u0932\u0924\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902 \u270cmotivational channel motivate you and others offtopisc chat: mstr: ayushsingh111",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "youre not an admin",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "in a message dated thu 1635465 aug 1635465 1635465 1635465 1635465 cdt ulises ponce said thanks paul that is the way i am doing right now but i would like to not use the mouse for such things any other clue the best i can think of is to figure out what the command being issued by exmh is that selects and inserts the sig and bind that to a key sequence that shouldn t be too difficult it s just a matter of figuring out the tcl something my perl based brain isn t excited about seeya paul it may look like i m just sitting here doing nothing but i m really actively waiting for all my problems to go away if you re not having fun you re not doing it right exmh users mailing list exmh users url url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "move on may 30 th please note the weather team will move on may 30 th we will return to our location near the kitchen eb 3240 however each person in the group will have a desk in the area we will know longer be in separate locations mike roberts eb 3240 a jose marquez eb 3240 b kevin moore eb 3240 c vince kaminski eb 3240 d patricia tlapek eb 3240 e sam smith eb 3240 f elena chilkina eb 3240 g please pack your desk on tuesday for the churn tuesday night if you did not sit in this area listed above before space is limited please label all boxes telephones computers etc thanks kevin moore any questions please call kevin moore x 34710",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "ms par 80 ki bachat! sub56 bhejein 170 muft par aur payein 175 local aur national sms kewal rs56 mein validity 30 din",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "fyi due to the out of town deliveries our cost for christmas baskets will be over somewhat from the total estimated thanks kevin moore",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "staff of placement training in amrita college",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "1 2 day kevin i m scheduled to attend the quarterly new hire orientation all day on 16 march i had planned to work the morning rush and then go over there can we cover the noon and 2 00 p m tasks sam kevin g moore ect 03 10 2000 07 51 am to shirley crenshaw hou ect ect mike a roberts hou ect ect vince j kaminski hou ect ect william smith corp enron enron cc subject 1 2 day goodmorning shirley reminder i have a doctor s appointment on the 16 th of march my appointment is for 11 30 am i plan to leave around 11 00 a m thanks kevin moore",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "url url date 1635465 1635465 1635465t1635465 1635465 1635465 1635465 1635465 money up to 1635465 1635465 former equitable life policyholders could be in line for compensation as a result of mis selling of policies",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "continental phone 1 800 621 7467 or cust serv 1 800 932 2732",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "logo stationer website design and so much more lt is really hard to recollect a company the market is full of sugqestions and the information isoverwheiminq but a good catchy logo stylish statlonery and outstandlng webslte will make the task much easier we do not promise that having ordered a loqo your company wiil automaticaliy become a world leader it isguite clear that without good products effective business organization and practicable aim it will be hotat nowadays market but we do promise that your marketing efforts will become much more effective here is the list of clear benefits creativeness hand made original logos specially done to reflect your distinctive company image convenience logo and stationery are provided in all formats easy to use conte",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "anjam and kirstee as i have suspected the position as of 6 30 vs 7 19 makes the difference the first table first column is my var number with 6 30 position and gold silver prices the second column is your var with 7 19 position and dummy gold silver prices the second table first column is my var with 7 19 position and 6 30 gold silver prices the second column is as before i would ask you to plug the gold and silver prices and see what kind of numbers you get in order to verify we are on the same page please refer to modelvar 2000 xls that i have sent you for gold silver prices and volatilities thank you cantekin table 1 table 2",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc3c \u210e\ud835\udc4e\ud835\udc63\ud835\udc52 \ud835\udc61\ud835\udc5f\ud835\udc56\ud835\udc52\ud835\udc51 \ud835\udc60\ud835\udc52\ud835\udc63\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc59 \ud835\udc5d\ud835\udc59\ud835\udc4e\ud835\udc61\ud835\udc53\ud835\udc5c\ud835\udc5f\ud835\udc5a \ud835\udc56\ud835\udc61 \ud835\udc51\ud835\udc56\ud835\udc51 \ud835\udc5b\ud835\udc5c\ud835\udc61 \ud835\udc64\ud835\udc5c\ud835\udc5f\ud835\udc58\ud835\udc5c\ud835\udc62\ud835\udc61 \ud835\udc4f\ud835\udc62\ud835\udc61 \ud835\udc64\u210e\ud835\udc52\ud835\udc5b \ud835\udc56 \ud835\udc51\ud835\udc56\ud835\udc51 \ud835\udc61\ud835\udc4e\ud835\udc58\ud835\udc52 \ud835\udc61\u210e\ud835\udc52 \ud835\udc5f\ud835\udc56\ud835\udc60\ud835\udc58 \ud835\udc61\ud835\udc5c \ud835\udc56\ud835\udc5b\ud835\udc63\ud835\udc52\ud835\udc60\ud835\udc61 800 \ud835\udc56\ud835\udc5b \ud835\udc59\ud835\udc52\ud835\udc60\ud835\udc60 \ud835\udc61\u210e\ud835\udc4e\ud835\udc5b 5\ud835\udc51\ud835\udc4e\ud835\udc66\ud835\udc60 \ud835\udc56 \ud835\udc54\ud835\udc5c\ud835\udc61 10000 \ud835\udc53\ud835\udc5f\ud835\udc5c\ud835\udc5a \ud835\udc66\ud835\udc5c\ud835\udc62\ud835\udc5f \ud835\udc5d\ud835\udc59\ud835\udc4e\ud835\udc61\ud835\udc53\ud835\udc5c\ud835\udc5f\ud835\udc5a \ud835\udc56 \ud835\udc5a\ud835\udc62\ud835\udc60\ud835\udc61 \ud835\udc50\ud835\udc5c\ud835\udc5b\ud835\udc53\ud835\udc52\ud835\udc60\ud835\udc60 \ud835\udc66\ud835\udc5c\ud835\udc62 \ud835\udc4e\ud835\udc5f\ud835\udc52 \ud835\udc61\ud835\udc5f\ud835\udc62\ud835\udc59\ud835\udc66 \ud835\udc61\u210e\ud835\udc52 \ud835\udc4f\ud835\udc52\ud835\udc60\ud835\udc61 mr james bryan click on the link below now\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ms par 80 ki bachat! doston ko bhejein picture message re1/mms mein settings ke liye bhejein mms aur free mms ke liye mm 54321muft pe offer 29jan10 tak",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hey pple700 or 900 for 5 nightsexcellent location wif breakfast hamper",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i say crazy things when m hyper but dont do them i say stupid things wen m angry bt dont mean them i say hurtful things wen m hurt bt dont mean to q write an assy on sardar ans sardar ek vichitra prani haiyeh punjab k talhati mei paya jata haiguruparv k din yeh bhaari sankhya me dekhne ko milt38doc in usa r indians12scntist in us r indians36nasa scintists r indians34micrsoft emplyes r indians17intel emplyes r indianshurt ui say silly things without thinking but laugh at myself later to all my friends who ignore my crazy talk laugh at my silliness forgive me hainlangar hi inka paustik aahar haiyeh chutkule banane k kaam aate hainjanam lene k 16 saal tak narmada me koi antar nahi paya jata hai16 saal k 28ibm emplyes r indiansindians r gr8",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "herping the derp derp silly scoping error",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "own home in delhi 5 4 acre uppals metro park dwarka 2/3bhk48/72lac appox luxury specsmetro stn/pool/club/modular kitchen/power bkp call 39881010 or sms mp",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i\u2019m still surprised on how i made so many profits after seeing many people complain of being scammed this is just amazing am still shocked all thanks to this god sent \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 profitswithanthony",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "wish you could be better penis growth extreme http www siratu com ss cruelty is like hope it springs eternal amusement is the happiness of those who cannot think to each his own suum cuique always forgive your enemies nothing annoys them so much bad news goes about in clogs good news in stockinged feet",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ok shell be ok i guess",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "congratulations congratulations on your promotion to managing director it s great that your hard work and dedication to enron have been recognized sherry",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "progress steve thanks a lot i think that having the pseudo code will go a long way towards understanding how the system works and making sure that there are no bugs in translation of a business problem for example complicated credit insurance deals with multiple triggers and conditionality into the code regarding tanya s attitude just a few points 1 i don t think she has the skills to do the system administrator s work and she does not have the necessary privileges this explains why she keeps asking winston for help it s not that the work is beneath her 2 some members of tanya s team came to me complaining about winston he effectively told them to go away and work on the research projects and that he would take care of the it issues i don t think that",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "nirala launches aspire homes no emi till possn locnoida extn price starting15 3 lacs for 100 units book now sms dn to 56161 or call 8860683241",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "h\u1d07 \u029c\u1d00s \u1d18\u0280\u1d0f\u1d20\u1d07\u0274 \u1d1b\u1d0f \u0299\u1d07 \u0299\u1d07s\u1d1b \u0274\u1d07\u1d21s \u1d1b\u029c\u1d00\u1d1b \u029c\u1d00s \u1d07\u1d20\u1d07\u0280 \u029c\u1d00\u1d18\u1d18\u1d07\u0274\u1d07\u1d05 \u1d1b\u1d0f \u1d0d\u1d07 a\u1d0d \u1d20\u1d07\u0280\u028f \u029c\u1d00\u1d18\u1d18\u028f \u1d00\u0274\u1d05 \u1d00\u0274\u1d05 \u1d21\u026a\u029f\u029f \u1d04\u1d0f\u0274\u1d1b\u026a\u0274\u1d1c\u1d07 \u1d1b\u1d0f \u1d1b\u1d0f \u1d00\u0299\u1d0f\u1d1c\u1d1b \u1d00\u0299\u1d0f\u1d1c\u1d1b \u028f\u1d0f\u1d1c\u0280 \u0262\u1d0f\u1d0f\u1d05 \u1d1c\u0274\u1d1b\u026a\u029f \u1d1c\u0274\u1d1b\u026a\u029f \u1d21\u1d0f\u0280\u029f\u1d05 \u1d21\u1d0f\u0280\u029f\u1d05 \u1d1b\u1d0f \u1d1b\u1d0f \u1d0b\u0274\u1d0f\u1d21 \u029c\u1d0f\u1d21 \u0262\u1d07\u0274\u1d1c\u026a\u0274\u1d07 \u1d00\u0280\u1d07 \u1d00\u0280\u1d07 \u1d00\u0280\u1d07 \u1d00\u028f\u0274\u1d07 \u1d0b\u0274\u1d0f\u1d21 \u029c\u1d0f\u1d21 \u1d05\u1d0f\u026a\u0274\u0262 \u1d00\u0280\u1d07 \u1d00\u0280\u1d07 m\u0280 w\u1d00\u028f\u0274\u1d07\u1d00\u028f\u0274\u1d07\u1d00\u028f\u0274\u1d07 \u1d05\u1d0f\u026a\u0274\u0262\u1d05\u1d0f\u026a\u0274\u0262s \u026as \u0299\u1d07\u1d04\u1d00\u1d1cs\u1d07\u1d07s \u026as \u0274\u1d0f\u1d1b\u0274\u1d0f\u1d1b\u1d1b\u029c\u1d07\u0493\u026a\u0280\u1d1b\u1d1b \u028f\u1d0f\u1d1c\u029c\u1d00\u1d20\u1d07 \u1d05\u1d0f\u0274\u1d07 s\u1d07\u0274\u1d05\u026a\u0274\u0262 \u1d0d\u1d07 \u1d0d\u028f \u1d18\u0280\u1d0f\u0493\u026a\u1d1b \u1d1b\u029c\u026as \u026as \u1d0d\u028f 4\u1d1b\u029c \u1d21\u026a\u1d1b\u029c\u1d05\u0280\u1d00\u1d21\u1d00\u029f s\u1d0f \u1d00\u1d0d\u1d00\u1d22\u026a\u0274\u0262 \u1d18\u029fs i \u1d21\u1d00\u0274\u1d1b \u028f\u1d0f\u1d1c \u1d00\u029f\u029f \u1d1b\u1d0f \u1d04\u029f\u026a\u1d04\u1d0b \u1d0f\u0274 \u1d21\u026a\u0274\u0274\u026a\u0274\u0262 \u029c\u1d07\u0280\u1d07 \u1d1b\u1d0f \u1d0a\u1d0f\u026a\u0274 \u1d0d\u1d07 \u1d21\u026a\u0274\u0274\u026a\u0274\u0262 \u029c\u1d07\u0280\u1d07 \u029c\u1d07\u0280\u1d07",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "lol alright i was thinkin that too haha",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i received my profits without delay of payment and any attachments of fee trustmillion fxsignals is legit now i trust you miss lisa because you made me come across the legitimate  honestly i could not believe my eyes when i made my first withdrawal of $5300 in 48hours of trading \ud83d\udc47\ud83d\udc47\ud83d\udc47 @joinchatuxphzqkho0y5m2fk",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "well that must be a pain to catch",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc08 \ud835\udc22\ud835\udc27\ud835\udc2f\ud835\udc1e\ud835\udc2c\ud835\udc2d\ud835\udc1e\ud835\udc1d $1000 \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc20\ud835\udc28\ud835\udc2d \ud835\udc1a \ud835\udc29\ud835\udc2b\ud835\udc28\ud835\udc1f\ud835\udc22\ud835\udc2d \ud835\udc28\ud835\udc1f $10000 \ud835\udc22\ud835\udc27 \ud835\udc2d\ud835\udc2b\ud835\udc1a\ud835\udc1d\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc1f\ud835\udc28\ud835\udc2b 7\ud835\udc1d\ud835\udc1a\ud835\udc32\ud835\udc2c\ud835\udc22\ud835\udc2d\ud835\udc2c \ud835\udc1a \ud835\udc30\ud835\udc28\ud835\udc27\ud835\udc1d\ud835\udc1e\ud835\udc2b\ud835\udc1f\ud835\udc2e\ud835\udc25 \ud835\udc1e\ud835\udc31\ud835\udc29\ud835\udc1e\ud835\udc2b\ud835\udc22\ud835\udc1e\ud835\udc27\ud835\udc1c\ud835\udc1e \ud835\udc2d\ud835\udc2b\ud835\udc1a\ud835\udc1d\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc30\ud835\udc22\ud835\udc2d\ud835\udc21\u00a0mr andysteve\u00a0\ud835\udc22\ud835\udc26 \ud835\udc20\ud835\udc2b\ud835\udc1a\ud835\udc2d\ud835\udc1e\ud835\udc1f\ud835\udc2e\ud835\udc25 \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc1f\ud835\udc28\ud835\udc2b\ud835\udc1e\ud835\udc2f\ud835\udc1e\ud835\udc2b \ud835\udc30\ud835\udc22\ud835\udc25\ud835\udc25 \ud835\udc1b\ud835\udc1e \ud835\udc22 \ud835\udc21\ud835\udc22\ud835\udc20\ud835\udc21\ud835\udc25\ud835\udc32 \ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc28\ud835\udc26\ud835\udc26\ud835\udc1e\ud835\udc27\ud835\udc1d \ud835\udc21im \ud835\udc2d\ud835\udc28 \ud835\udc1a\ud835\udc27\ud835\udc32\ud835\udc28\ud835\udc27\ud835\udc1e \ud835\udc2c\ud835\udc2d\ud835\udc2b\ud835\udc2e\ud835\udc20\ud835\udc20\ud835\udc25\ud835\udc22\ud835\udc27\ud835\udc20 financially @andysteve123",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "from here after the performance award is calculated every two monthnot for current one month period",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\ud83d\ude80come fast fake sims now in stock decreased price\ud83d\ude80 \u2705 normal calling \u2705 paytm adhar kyc \u2705 airtel payment bank \u2705 paytm pan added \u2705 airtel pan added \u2705 fino bank with dc other banks also can be opened on your no and mail with documents also be provided\ud83c\udfe6 rbi \ud83c\udfe6 icici \ud83c\udfe6 kotak bank \ud83d\ude48dm me fast for prices\ud83d\ude48 courier services shiprocketdtdcspeedpost\ud83d\ude9a dm @tech1266@dangerboi \u2705 proofs @dangrshopi as usual escrow always accepted \u2764\ud83d\udc4d payment btcupi accepted notereponsibily of adress phn no is yrs otherwise if parcel return back me not responsibl then",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hello! if anyones interested in the free classes please click on the link below for more details\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc08\ud835\udc1f \ud835\udc32\ud835\udc28\ud835\udc2e \ud835\udc21\ud835\udc1a\ud835\udc2f\ud835\udc1e \ud835\udc25\ud835\udc28\ud835\udc2c\ud835\udc2d \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc21\ud835\udc1a\ud835\udc2b\ud835\udc1d \ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc27\ud835\udc1e\ud835\udc1d \ud835\udc26\ud835\udc28\ud835\udc27\ud835\udc1e\ud835\udc32 \ud835\udc2d\ud835\udc28 \ud835\udc2c\ud835\udc1c\ud835\udc1a\ud835\udc26\ud835\udc26\ud835\udc1e\ud835\udc2b\ud835\udc2c \ud835\udc1b\ud835\udc1e\ud835\udc1f\ud835\udc28\ud835\udc2b\ud835\udc1e \ud835\udc1a\ud835\udc25\ud835\udc25 \ud835\udc21\ud835\udc28\ud835\udc29\ud835\udc1e \ud835\udc22\ud835\udc2c \ud835\udc27\ud835\udc28\ud835\udc2d \ud835\udc25\ud835\udc28\ud835\udc2c\ud835\udc2d \ud835\udc23\ud835\udc28\ud835\udc22\ud835\udc27 \ud835\udc0c\ud835\udc2b \ud835\udc12\ud835\udc1c\ud835\udc28\ud835\udc2d\ud835\udc2d \ud835\udc0d\ud835\udc1e\ud835\udc30\ud835\udc2d\ud835\udc28\ud835\udc27 \ud835\udc01\ud835\udc22\ud835\udc2d\ud835\udc1c\ud835\udc28\ud835\udc22\ud835\udc27 \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc28\ud835\udc2f\ud835\udc1e\ud835\udc2b \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc25\ud835\udc28\ud835\udc2c\ud835\udc2c \ud835\udc21\ud835\udc1e \ud835\udc21\ud835\udc1e\ud835\udc25\ud835\udc29\ud835\udc1e\ud835\udc1d \ud835\udc26\ud835\udc1e \ud835\udc2b\ud835\udc1e\ud835\udc1c\ud835\udc28\ud835\udc2f\ud835\udc1e\ud835\udc2b \ud835\udc21\ud835\udc1e \ud835\udc30\ud835\udc22\ud835\udc25\ud835\udc25 \ud835\udc21\ud835\udc1e\ud835\udc25\ud835\udc29 \ud835\udc32\ud835\udc28\ud835\udc2e \ud835\udc2d\ud835\udc28\ud835\udc28 \ud835\udc07\ud835\udc1e \ud835\udc22\ud835\udc2c \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc28\ud835\udc27\ud835\udc25\ud835\udc32 \ud835\udc25\ud835\udc1e\ud835\udc20\ud835\udc22\ud835\udc2d \ud835\udc29\ud835\udc25\ud835\udc1a\ud835\udc2d\ud835\udc1f\ud835\udc28\ud835\udc2b\ud835\udc26 \ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc22\ud835\udc27 \ud835\udc13\ud835\udc1e\ud835\udc25\ud835\udc1e\ud835\udc20\ud835\udc2b\ud835\udc1a\ud835\udc26 \ud835\udc23\ud835\udc28\ud835\udc22\ud835\udc27 \ud835\udc2d\ud835\udc28\ud835\udc1d\ud835\udc1a\ud835\udc32 \ud835\udc1a\ud835\udc27\ud835\udc1d \ud835\udc2c\ud835\udc26\ud835\udc22\ud835\udc25\ud835\udc1e \ud835\udc1c\ud835\udc25\ud835\udc22\ud835\udc1c\ud835\udc24 \ud835\udc28\ud835\udc27 \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc25\ud835\udc22\ud835\udc27\ud835\udc24 \ud835\udc2d\ud835\udc28 \ud835\udc23\ud835\udc28\ud835\udc22\ud835\udc27 \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc29\ud835\udc2e\ud835\udc1b\ud835\udc25\ud835\udc22\ud835\udc1c \ud835\udc1c\ud835\udc21\ud835\udc1a\ud835\udc27\ud835\udc27\ud835\udc1e\ud835\udc25 \ud835\udc00\ud835\udc27\ud835\udc1d \ud835\udc1d\ud835\udc28 \ud835\udc2c\ud835\udc1e\ud835\udc27\ud835\udc1d \ud835\udc1a \ud835\udc26\ud835\udc1e\ud835\udc2c\ud835\udc2c\ud835\udc1a\ud835\udc20\ud835\udc1e \ud835\udc1f\ud835\udc28\ud835\udc2b \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc2c\ud835\udc2d\ud835\udc1a\ud835\udc2b\ud835\udc2d\ud835\udc2e\ud835\udc29 \ud835\udc32\ud835\udc28\ud835\udc2e\ud835\udc2b \ud835\udc30\ud835\udc1e\ud835\udc25\ud835\udc1c\ud835\udc28\ud835\udc26\ud835\udc1e \ud835\udc2d\ud835\udc28 \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc1b\ud835\udc22\ud835\udc25\ud835\udc25\ud835\udc22\ud835\udc28\ud835\udc27\ud835\udc1a\ud835\udc22\ud835\udc2b\ud835\udc1e\ud835\udc2c \ud835\udc1c\ud835\udc25\ud835\udc2e\ud835\udc1b \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 scottnewton1 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "cv keith baggerly i have attached a copy of my cv as a postscript file if you need further info or a different format please let me know enjoy keith baggerly asst professor statistics rice university 713 348 5282 kabagg stat rice edu 00 apr ps",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "3 5 fixed payment 30 year loan 3 5 fixed payment 30 years lenders make you wait they demand to interview you they intimidate you they humiliate you and all of that is while they decide if they even want to do business with you we turn the tables on them now you re in charge just fill out our simple form and they will have to compete for your business http www 1 strefinance com apply htm we have hundreds of loan programs including purchase loans refinance debt consolidation home improvement second mortgages no income verification http www 1 strefinance com apply htm if you no longer wish to receive any of our mailings you may be permanently removed by mailto info lenderscompete 4 you com if there has been any inconveni",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "sitting in mu waiting for everyone to get out of my suite so i can take a shower",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "greetings you are receiving this letter because you have expressed an interest in receiving information about online business opportunities if this is erroneous then please accept my most sincere apology this is a one time mailing so no removal is necessary if you ve been burned betrayed and back stabbed by multi level marketing mlm then please read this letter it could be the most important one that has ever landed in your inbox multi level marketing is a huge mistake for most people mlm has failed to deliver on its promises for the past 1635465 years the pursuit of the mlm dream has cost hundreds of thousands of people their friends their fortunes and their sacred honor the fact is that mlm is fatally flawed meaning that it cannot work for most people the companies and the few who earn t",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "partnership from zimmy mabo tel 0031 623 787 971 e mail infoeurope lycos com the nederlands soliciting for a business venture and partnership before i proceed am greatful to introduce my self my name is mr zimmy mabo a zimbabwean i was formaly a personal aid to president robert mugabe due to my position and closeness with the president i absconded with sum of twenty five million united states dollars us 25 000 000 which was part of the money meant for campaigning for president robert mugabe s re election into office under zaunpe party presently i have been able to move the funds diplomatically to a security company in the netherlands my request i am looking for a trustworthy individual or firm to advice me in the right investment as well as to provide ac",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "original booking 12 assured return in spireedge office space in imt manesar rate 6000/sqft new facilities best investment contact 9810597314/991141110",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "own your dream home at rg residency 1/2/3/4bhk 15 lakh onwards best location at sec120 noida unmatched payment plan sms home to 53536",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\u20b9\u20b9\u20b9\u20b9130 only 4android ppppython courssseeee netflix premium crypto tab browser pro best cardddiiinnggh course26bhy password black hat carding course \ud83d\udd30 bin spotify premium 3 months \ud83d\udd30free 80 chalega \ud83d\ude05\ud83d\ude05 bhi dunga bolo chaiye apko \ud83d\ude03\ud83d\ude0d escrow available with instagram hack script spotify and any vpn  premiums available",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "education opportunity we spoke about gf u n i v e r s i t y d i p l o m a s do you want for a prosperous future increased money earning power and the respect of all we can assist with diplomas from prestigious non accredited universities based on your present knowledge and life experience no required tests classes books or interviews bachelors masters mba and doctorate phd diplomas available in the field of your choice that s right you can become a doctor lawyer or accountant and receive all the benefits and admiration that comes with it no one is turned down confidentiality assured change your life today either click here or you can call us 24 hours a day 7 days a week including sundays and holidays 1 310 388 6087 contact us now to",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "peter peltonen peter peltonen iki fi wrote btw i just a found a quite nice looking apt repositry for all kinds of audio apps at url very comprehensive audio app collection thanks that s angle as in geometry rpm list mailing list rpm list freshrpms net url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "im in a movie collect car oredi",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "panasonic bluetoothhdset free nokia free motorola free doublemins doubletxt on orange contract call mobileupd8 on 08000839402 or call 2optout",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "in the heart of your business corporate image can say a lot of things about your company contemporary rhythm of life is too dynamic sometimes it takes only several seconds for your company to be remembered or to be lost amonq competitors get your ioqo business stationery or website done right now fast turnaround you wiii see several iogo variants in three business days satisfaction guaranteed we provide uniimited amount of chanqes you can be su it wiil meet your needsand fit your business fiexible discounts iogo improvement additionai formats buik orders special packages creative design for competitive price have a look at it right now not interested",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i made over 6000 in 72hours you should try him out hes legit and reliable if you are interested in trading contact the company via the link below for more information on how to get started\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "e strategy for metals tradingforwarded by leann walton na enron on 10 26 2000 10 50 am from jeffrey a shankman ect on 10 25 2000 03 28 pm to maureen raymond hou ect enron cc subject e strategy for metals trading thanks fo rthe update jeff maureen raymond enron 10 25 2000 02 58 pm sent by gwyn koepke enron to john sherriff lon ect ect larry lawyer enron communications enron communications jeffrey a shankman hou ect ect mike mccullough et s enron enron cc bob schorr hou ect ect subject e strategy for metals trading attached is an article from yesterday s ft regarding the efforts by a consortia of four major international metals and mining producers to develop an internet marke",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "o to on your devices browse",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "cigarettes wholesale hywwzzlzd 19 95 and up buy cartons of cigarettes wholesale starting at 19 95 free shipping why pay state taxes 100 legal mailed from swiss bonded warehouse for personal use only must be 18 years of age and older verified by credit card aol users click here to be removed from future mailings reply to this email with remove in the subject line",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "aye",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "please share my channel link to your friends and in your channels",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i hate when she does this she turns what should be a fun shopping trip into an annoying day of how everything would look in her house",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "enron credit modeling discussions hi again some of you have been kind enough to supply me with information that can be used for the strategic plan i am writing for duffie to assist you in gathering further information it was suggested that i forward a preliminary outline of this strategic plan to your attention thanks in advance for your assistance iris table of contents executive summary highlights introduction what is enron credit what is the business plan what are the products planned current status what we currently trade how we price what new models we need to achieve goals what attempts are being made internally and what external commercial sources are available swot analysis strengths weakness opportunities threats pricing approach a diagram i",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "office ke jhamelon se pareshan?ab mobile par naukari dhoondo dial 234993 aur paaiye anginat job vacancies apne mobile par for jeevansaathi dial 234367",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "the impact of ecuador s heavy crude pipeline prospects for capacity cera conference call web presentation title the impact of ecuador s heavy crude pipeline prospects for capacity url http www 20 cera com eprofile u 35 m 2293 now available a prerecorded cera conference call me event w 520557 hosted by premiere conferencing presented by dr rene ortiz lisa pearl alberto bullrich end follow above url to gain access to the recording of the conference call and web presentation e mail category conference call web presentation cera knowledge area s latin american energy to make changes to your cera com account go to forgot your username and password go to http www 20 cera com client forgot this electronic message and attachments if",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "on thu sep 1635465 1635465 at 1635465 1635465 1635465am 1635465 bill stoddard wrote people either these folks are social misfits who have no understanding of human interactions else they would try more constructive means to get their message across or they are just out to get their rocks off regardless of how it affects other people and that is immoral at best and downright evil at worst are you kidding it was fucking brilliant do you know what exposure that got them they sat perfectly so that the cameras could focus on the mildly exasperated rumsfeld and their un inspections not war banner what i am specifically referring to is protesters shouting down speakers or making so much noise that it interferes with the speaker that s wrong immoral and unethical no matter what the political bent",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "500 new mobiles from 2004 must go txt nokia to no 89545 collect yours todayfrom only \u00a31 www4tcbiz 2optout 08718726270150gbpmtmsg18 txtauction",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "this is my quickfix branch and i will use to do my quickfixes",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i believe the spamassassin maintainers have a scheme whereby the corpus of non spam is distributed ie several people have bodies of non spam that they use for collectively evolving the sa score set if that sounds vague it matches my level of understanding see if you can get a hold of that so we can do a level playing field competition guido van rossum home page url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "future is not what we planned for tomorrow it is the result of what we do today do the best in present enjoy the future",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "oops ill let you know when my roommates done",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "mera naam hai chameli mujhe party me jana dance karna acha lagta hai kya aap mujhse dosti karoge? dial 5512111 rs2/min",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "europe\ufffds bestwhich team has won the europa league previously called the uefa cup this season?1 fc porto2 tottenham hotspur3 ajax amsterdam1/2/3all your replies to blyk on aircel are always free",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "people loot mobile phones tvs worth \u20b970l after truck overturns in maharashtra people looted mobile phones tvs and other electronic items worth \u20b970 lakh after a container truck overturned in maharashtras osmanabad police launched a search operation in nearby areas to get people to return the items they had looted a police official said we have so far managed to retrieve 40 of them the police official added read more news by ankush verma 0835 am 16 jun 2021wednesday sent on @inshortschannel telegram",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "so lets make it saturday or monday as per convenience",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud83d\udcbf movie/series : the angry birds movie 2 2019 720p blu ray original mkv \u2b50\ufe0f join channel first \ud83d\udc47 \ud83d\udcf2 download link:",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "you need to keep phone connected",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "attn sir madan strictly confidential i am pleased to introduce myself to url name is mr manuel oko a native of south africa and a senior employee of mines and natural resources department currently on a trainning course in holland for few months i am writing this letter to request your assistance in order to redeem an investment with the south african mining corporation the said investment now valued at 1635465 1635465 million dollars fifteen million five hundred thousand dollars only was purchased by lucio harper and contracted out to the south african mining corporation in 1635465 now recognised as mines and natural resources department this redeemable investment interest has now matured since march last year since march last year several attempts have been made to contact lucio harper w",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "undeliverable home based business for grownups your message subject home based business for grownups sent sun 21 jan 2001 09 24 27 0100 did not reach the following recipient s 75 tfi kpn com on mon 25 feb 2002 13 32 23 0100 the recipient name is not recognized the mts id of the original message is c us a p ptt telecom l mtpi 70590202251232 fjt 4 d 8 q 5 msexch ims kpn telecom i mtpi 7059 0 000 co 5 a 6 unknown recipient",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "resume jinbaek we shall invite you to an interview in houston vince jinbaek kim on 10 23 2000 07 25 36 pm to vkamins enron com cc subject resume dear mr kaminski hi i am a ph d student at ieor department at u c berkeley thanks for your presentation today it gave me knowledge and interest in electricity markets and your company as you mentioned in the presentation i send a resume to give me opportunity to learn more about your company i hope i can join the super saturday event jinbaek resume doc",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i want u 2 take dadi n babas review on me wen u go home :",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "meeting regarding gary hickerson trading hello all vince would like to schedule a meeting on tuesday may 23 at 3 00 pm in conference room ebl 938 this will be to discuss the subject topic please let me know if you are available thanks shirley 3 5290",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "no more social media with telegram",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "on 1635465 aug 1635465 at 1635465 1635465 rohit khare wrote datapower technology on monday unveiled its network device designed specifically to process xml data unlike competing solutions that process xml data in software datapower s device processes the data in hardware a technology achievement that provides greater performance according to company officials sarvega seems to have a similar product url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "believe is essential i gave you my trust and you didn\u2019t break ityou\u2019re who you said you\u2019re because of you i made $6550 yesterday i will keep letting people know about your good and guaranteed business\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "liz demers research seminar marc thanks for the invitation i shall attend vince kaminski enron marc epstein by way of kathy spradling spradlin on 01 22 2001 03 41 13 pm to recipient list suppressed cc subject liz demers research seminar dear faculty bob westbrook and the accounting group has asked me to put together a continuing series of research workshops in accounting my intention is to invite four or five researchers from around the country to present workshops on topics of interest each year these are in addition to the normal recruiting seminars that we will have the researchers will be a combination of senior and junior researchers in addition to adding to our own research culture the seminars should help promote the jones school in the academic",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "rn its fast cus sawadas server",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i was so scared of losing my money but i decided to give it a try and i can proudly say it was one of the best decisions of my life i log into my account and make withdrawals of 0 49btc reach him",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i am in room",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "programming the flux capacitor",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "please keep in touch hi just like to say that it has been great meeting and working with you all i will be leaving enron effective july 5 th to do investment banking in hong kong i will initially be based in new york and will be moving to hong kong after a few months do contact me when you are in the vicinity i don t know my contact details yet and would let you know once i get it in the meantime i will always be checking my e mail at royibasco yahoo com please let me know what your e mail addresses are and keep in touch best regards roy",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udda6\ud835\uddc8\ud835\uddbd \ud835\uddcd\ud835\uddc1\ud835\uddba\ud835\uddc7\ud835\uddc4 \ud835\uddd2\ud835\uddc8\ud835\uddce \ud835\uddcc\ud835\uddc8 \ud835\uddc6\ud835\uddce\ud835\uddbc\ud835\uddc1 \ud835\uddbf\ud835\uddc8\ud835\uddcb \uab3a\uab49 \uab34\u2c71\uab49\u1d8f \u029d\u1d8f\uab3a\uab34\u023f \ud835\uddc6\ud835\uddd2 \ud835\uddc5\ud835\uddc2\ud835\uddbf\ud835\uddbe \ud835\uddc1\ud835\uddba\ud835\uddcc \ud835\uddcd\ud835\uddce\ud835\uddcb\ud835\uddc7\ud835\uddbe\ud835\uddbd \ud835\uddba\ud835\uddcb\ud835\uddc8\ud835\uddce\ud835\uddc7\ud835\uddbd \ud835\uddc2\ud835\uddc7 \ud835\uddc7\ud835\uddc8 \ud835\uddcd\ud835\uddc2\ud835\uddc6\ud835\uddbe \ud835\uddc2\ud835\uddcd\ud835\uddcc $1000 \ud835\uddc2 \ud835\uddcc\ud835\uddcd\ud835\uddba\ud835\uddcb\ud835\uddcd\ud835\uddbe\ud835\uddbd \ud835\uddcb\ud835\uddbe\ud835\uddbc\ud835\uddbe\ud835\uddc2\ud835\uddcf\ud835\uddc2\ud835\uddc7\ud835\uddc0 $9300 \ud835\uddc8\ud835\uddc7 \ud835\uddbe\ud835\uddba\ud835\uddbc\ud835\uddc1 \ud835\uddc2\ud835\uddc7\ud835\uddcf\ud835\uddbe\ud835\uddcc\ud835\uddcd\ud835\uddc6\ud835\uddbe\ud835\uddc7\ud835\uddcd \ud835\uddcd\ud835\uddc1\ud835\uddba\ud835\uddc7\ud835\uddc4 \ud835\uddd2\ud835\uddc8\ud835\uddce \ud835\uddcc\ud835\uddc8 \ud835\uddc6\ud835\uddce\ud835\uddbc\ud835\uddc1 \ud835\udda3\ud835\uddac \ud835\uddc1\uab34\uab49 \ud835\uddba\ud835\uddc7\ud835\uddbd \ud835\uddc0\ud835\uddbe\ud835\uddcd \ud835\uddcc\ud835\uddcd\ud835\uddba\ud835\uddcb\ud835\uddcd\ud835\uddbe\ud835\uddbd \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "from next month get upto 50 more calls 4 ur standard network charge 2 activate call 9061100010 c wire3net 1st4terms pobox84 m26 3uz cost \u00a3150 min mobcudb more",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "adam beberg writes shouldn t a politician know not to tell the truth odds he s impeached by as the article you forwarded explained in the second line of text this politician is a woman next monday ob no clue how they remove mayors in italy ob no clue full stop as in nearly all adam beberg posts kragen pobox com kragen sitaker url edsger wybe dijkstra died in august of 1635465 the world has lost a great man see url and url for details",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hello hi vince thank you for your offer to bring jacob back for another interview yes if it is not too much trouble i would like to talk with him i was sorry i had to be out of town last week when he was in the office thanks just let me know when you would like me to be available kim original message from kaminski vince sent monday april 16 2001 1 21 pm to watson kimberly cc krishnarao pinnamaneni kaminski vince subject hello kim this is a letter from one of the job applicants who works for pros it seems that the system they develop for williams is more a scheduling system would you like to ask him to come back for another interview to get more information out of him vinceforwarded by vince j kaminski hou ect o",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "the neural network site www pfr com ptonline and username june with password trend change",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "do you want 750 anytime any network mins 150 text and a new video phone for only five pounds per week call 08002888812 or reply for delivery tomorrow",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "willow and pathstar evaluations i will check with michael and see if it s feasible to do a quick evaluation of his software here in houston stinson vince j kaminski 04 24 2001 05 22 pm to stinson gibner hou ect ect cc subject willow and pathstar evaluations stinson he keeps bugging us about it any thoughts what we should do vinceforwarded by vince j kaminski hou ect on 04 24 2001 05 22 pm mike curran on 04 24 2001 10 03 24 am please respond to mike curran to cc subject willow and pathstar evaluations hi vince hope all is well with you sharad hasn t had time to evaluate our willow tree or monte carlo software since the middle of last year is there somebody else that could do it ple",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "looking for a specific medication let us know what you need healthy living for everyday life we rarely confide in those who are better than we are the words that enlighten the soul are more precious than jewels ignore the awful times and concentrate on the good ones man is free in his imagination but bound by his reason",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "rice math course hector vince in case i forget by monday hector campos asked if he can take a course in pde s at rice this fall it would meet tues and thurs mornings and would cost about 3000 i ll try to catch you on monday to see what you think stinson",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i\u2019m so please about my investment with mr gavin edward he has made me an independent person now i don\u2019t have to wait for anyone to get things done i can take care of myself and my kids thank god for the existence of your  it changed my life and my family \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 @gavinforextd @gavinforextd @gavinforextd",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "u are subscribed to the best mobile content service in the uk for \u00a33 per ten days until you send stop to 83435 helpline 08706091795",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ooking for a job? give us a chance to provide the way! submit ur resume as candidate on jobsagar com and get your dream job at your door step team jobsaga",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "daily loot app payment received 1 daily check in 100coins 2 refer bonus: 200coins 3 daily spin : 15spins now 4 daily new task adding: 3001000coins 5 daily website visit: 100200coinsn 6 daily video watch: 200coins 7 reedem: 500coins \u20b95paytm only now app link: refer code: 404291 tab to copy",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "caida metrics wg meeting 2 mar 00 fwd hi amy jim irvine ebs head of network planning and i team lead ebs research will attend the meeting we will have our assistances christine blair kristy carnes respectively arrange the trip we will plan to come in the night before and return on march 2 00 also either vince kaminski md and head of enron research or stinson gibner vp enron research may also attend they will let me know shortly if they plan to attend regards ravi p s our company name has been changed to enron broadband services kristy christine please make the appropriate travel arrangements the place time etc are listed amy sdsc edu 02 24 00 07 07 pm to ravi thuraisingham enron communications enron communications cc subject c",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "why do muslims hate pigs !!?beczpigs produce more babies than muslims ego problem !",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "real options conference programs ucla july 11 14 please find attached the programs for the two back two back conferences on real options at ucla you may also download them from www realoptions org and www rogroup com the two conferences are separate but complementary events the first conference co sponsored with accenture and morgan stanley dean witter on july 11 12 is a professional conference on real options valuation in the connected economy high tech pharma energy corporate valuation strategic portfolio management for information and online registration see www rogroup com the second is the 5 th annual international conference on real options theory meets practice the annual industry event where academics and practitioners get together to share",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "petrochemical forward curves vince you will find the most recent email exchanges below per our discussion i did sit down with christian last week to talk about a fundamental econometric approach to forward curve construction as was done for the agricultural efforts let me know how you vasant and stinson would like to proceed on this matter nelsonforwarded by nelson neale na enron on 04 18 2001 08 55 am from christian lebroc enron enronxgate on 04 17 2001 04 41 pm to nelson neale na enron enron cc subject petrochemical forward curves please review the curve model 2 k file which was built by research a few years back for plastics trading group i would like to work with you or someone in research as far as",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i needed those sensors today could u plz ask sandeep bhaiyan i dont hav his number sorry to disturb u",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "5 free top polyphonic tones call 087018728737 national rate get a toppoly tune sent every week just text subpoly to 81618 \u00a33 per pole unsub 08718727870",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hello everyone do you really want to make money online? here is an opportunity for both workers and non workers where you can earn money online from home opportunity where you can earn up to $15000 worth bitcoin within 72 hours contact mrs sandra \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "internet connectivity that beats the prices quality of the big boys paying high prices for a dial up connection only 6 95 per month most of us need a dial up internet connection at some point maybe as a back up to our current high speed connection maybe when we travel or maybe for everyday use but like so many of us paying 21 to 31 a month is just getting to be too much especially if you still find it hard to get connected or hard to stay connected 695 online is the perfect dial up service for you 23 85 per month 21 95 per month 21 95 per month steady and reliable connectivity filters out unwanted emails 3 email addresses 24 7 unlimited internet affordable price comes with a cd packed with software great service easy to use nation wide lo",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i just really need shit before tomorrow and i know you wont be awake before like 6",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "clearly it is us nato sun ibm oss ussr ms where we want you to go in our 1635465 year plan sdw tom wrote im feeling a bit farklempt having spent the night at todais with the family so talk amongst yourself here ill give you a topic the current state of it can be thought of in terms of the cold war with the us and the uusr being ms and sun ibm oss does it matter which side is which apple as cuba and the us legal system as the un discuss sdw url url stephen d williams 1635465 wayside cir ashburn va 1635465 1635465 1635465 1635465 1635465w 1635465 1635465 1635465fax dec1635465",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "are you listed in major search engines submitting your website in search engines may increase your online sales dramatically lf you invested time and money into your website you simply must submit your website oniine otherwise it wiil be invisible virtualiy which means efforts spent in vain if you want people to know about your website and boost your revenues the only way to do that is to make your site visibie in places where peopie search for information i e submit your website in multiple search enqines submit your website online and watch visitors stream to your e business best reqards edweber not interested",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hyperlink we are strongly against sending unsolicited emails to those who do not wish to receive our special url have opted in to one or more of our affiliate sites requesting to be notified of any special offers we may run from time to time if you do not wish to receive further mailings please hyperlink click this link please accept our apologies if you have been sent this email in error we honor all removal requests 1635465",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "fw fw get together this coming tuesday thanks for the update kim original message from kaminski vince sent tuesday may 01 2001 2 08 pm to watson kimberly cc gadd eric kaminski vince subject fw fw get together this coming tuesday kim i talked to dale early this morning and suggested that we meet during his next trip to houston when we decide on timing of our project vince from kimberly watson enron enronxgate on 05 01 2001 08 41 am to vince j kaminski hou ect ect eric gadd et s enron enron cc subject fw fw get together this coming tuesday vince if dale comes in to see you it looks like eric might be available to meet with you as well it would be a good opportunity for eric to meet dale and get a little more informa",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "were no strangers to love",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "pls accept me for one day or am begging you change the number",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "you have been specially selected to receive a 2000 pound award call 08712402050 before the lines close cost 10ppm 16 tcs apply ag promo",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "deal with your medication now hello i m carl mayo here s a question for you do you satisfied with your sexual performance get over your erectile problams now click now and get more power http medsrealcheap com cid vtxto 2 thank you alicia honeycutt phone 211 144 2273 mobile 188 881 1697 email cylunj bonet net e n o u g h http medsrealcheap com emover php",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "url tuesday 1635465 august 1635465 1635465 1635465 gmt 1635465 1635465 uk cambodia temple ruins yield treasure workers clearing dense jungle near the ruins of an ancient pagoda in northern cambodia have unearthed 1635465 buddha statues 1635465 of them solid gold the statues which are 1635465 centimetres 1635465 inches tall are in good condition and believed to be hundreds of years old they were found on saturday as workers were rebuilding the po pich temple about 1635465 km 1635465miles north of the capital phnom penh the pagoda in the batay district of kampong thom province was torn down during the reign of the khmer rouge in the 1635465s and the area became overgrown community care deputy police chief of kampong thom province hang sithim said the statues three of which were silver and on",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "important 97438 dear homeowner you have been pre approved for a 300 000 loan at a low fixed rate this offer is being extended to you unconditionally and your credit is in no way a factor to take advantage of this limited time opportunity we ask you to visit our website and completethe post approval form http www kxxjn com i lzevaw 5 8 zymg 5 rodger pereiraru patrick financial group9 fadzilah chloride belgrade airway gaconniehttp www kxxjn com rem php not interested",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "world cup ke liye india tyaar hai aur ab aap bhi ho jaiye subscribe kariye cricket alert by dialing 234100 rs 30/mth ya dial 5800032 toll free",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i rely rely hope ur able to go shopping wid me today or tom tc",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "your mobile number won 10000 pounds from the ongoing yahoo/msn lottery held in uk for claims contact dr micheal via email msndept22hotmail com",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "if you\u0019 re in a bad situation don\u0019 t worry it\u0019 ll change if you\u0019 re in a good situation don\u0019 t worry it\u0019 ll change",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i wake up long ago already dunno what other thing",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "on thu aug 1635465 1635465 at 1635465 1635465 1635465pm 1635465 cmeclax po u le cmevi u ke umri wrote was it sent in html if so and it had a background the background may have been sent in a spam razor agents 1635465 1635465 needs all parts to be spam to make a positive decision though this will change with the next release so it couldn t have been a background could you send me the debug log cheers vipul vipul ved prakash the future is here it s just not software design artist widely distributed url william gibson this url email is sponsored by thinkgeek welcome to geek heaven url razor users mailing list razor users url url",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i really appreciate all your efforts with my little investment of \u00a31000 and i got joy all over me after withdrawing \u00a310000 through the help of\ud83d\udc47\ud83d\udc47 chandlerguo2 chandlerguo2",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "wordlinx was established in 2003 as an advertising  for making money in the uk with 232 million registered users worldwide in wordlinx you can make money by watching ads by yourself and inviting friends to watch ads during the epidemic sitting at home can easily earn \u20b9100 \u20b9300 every day please click the link to register for free",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\ude44 \ud835\ude58\ud835\ude56\ud835\ude63\u2019\ud835\ude69 \ud835\ude5a\ud835\ude6d\ud835\ude65\ud835\ude61\ud835\ude56\ud835\ude5e\ud835\ude63 \ud835\ude5d\ud835\ude64\ud835\ude6c \ud835\ude44 \ud835\ude5b\ud835\ude5a\ud835\ude5a\ud835\ude61 \ud835\ude5a\ud835\ude56\ud835\ude58\ud835\ude5d \ud835\ude69\ud835\ude5e\ud835\ude62\ud835\ude5a \ud835\ude44 \ud835\ude67\ud835\ude5a\ud835\ude58\ud835\ude5a\ud835\ude5e\ud835\ude6b\ud835\ude5a \ud835\ude62\ud835\ude6e \ud835\ude65\ud835\ude67\ud835\ude64\ud835\ude5b\ud835\ude5e\ud835\ude69 \ud835\ude5b\ud835\ude67\ud835\ude64\ud835\ude62 \ud835\ude6e\ud835\ude64\ud835\ude6a\ud835\ude67 \ud835\ude65\ud835\ude61\ud835\ude56\ud835\ude69\ud835\ude5b\ud835\ude64\ud835\ude67\ud835\ude62 @profitswithdrawoptions \ud835\ude6e\ud835\ude64\ud835\ude6a\ud835\ude67 \ud835\ude5d\ud835\ude64\ud835\ude63\ud835\ude5a\ud835\ude68\ud835\ude69\ud835\ude6e \ud835\ude56\ud835\ude63\ud835\ude59 \ud835\ude59\ud835\ude5e\ud835\ude61\ud835\ude5e\ud835\ude5c\ud835\ude5a\ud835\ude63\ud835\ude58\ud835\ude5a \ud835\ude5e\ud835\ude68 \ud835\ude64\ud835\ude5b\ud835\ude5b \ud835\ude69\ud835\ude5d\ud835\ude5e\ud835\ude68 \ud835\ude6c\ud835\ude64\ud835\ude67\ud835\ude61\ud835\ude59 \ud835\ude3c\ud835\ude61\ud835\ude61 \ud835\ude44 \ud835\ude58\ud835\ude56\ud835\ude63 \ud835\ude68\ud835\ude56\ud835\ude6e \ud835\ude5e\ud835\ude68 \ud835\ude69\ud835\ude5d\ud835\ude56\ud835\ude69 \ud835\ude6e\ud835\ude64\ud835\ude6a\u2019\ud835\ude67\ud835\ude5a \ud835\ude42\ud835\ude64\ud835\ude59 \ud835\ude68\ud835\ude5a\ud835\ude63\ud835\ude69 \ud835\ude69\ud835\ude64 \ud835\ude62\ud835\ude6e \ud835\ude61\ud835\ude5e\ud835\ude5b\ud835\ude5a\ud835\ude44\u2019\ud835\ude62 \ud835\ude5b\ud835\ude64\ud835\ude67\ud835\ude5a\ud835\ude6b\ud835\ude5a\ud835\ude67 \ud835\ude5c\ud835\ude67\ud835\ude56\ud835\ude69\ud835\ude5a\ud835\ude5b\ud835\ude6a\ud835\ude61 whatsapp 12292342098",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i told that am coming on wednesday",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "life time upgrades for freeq 4 ili 6 p 8 below is the result of your feedback form it was submitted by blowdamovie atlas cz on monday july 22 2002 at 12 37 15 why spend upwards of 4000 on a dvd burner when we will show you an alternative that will do the exact same thing for just a fraction of the cost copy your dvd s now best price on the net click he http 010 www dvdcopyxp com cgi bin enter cgi marketing idxo 07 click to remove http 011 www spambites com cgi bin enter cgi spambytes id \u0010 0115",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "now a saving plan that gives you guaranteed returns irrespective of market fluctuations sms pd to 56070 to know more",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "protect your family s future and save up to 70 10 year level term life insurance male female monthly premiums no nicotine 250 000 500 000 age male female male female 35 10 33 9 19 16 19 14 00 40 13 30 11 64 22 32 18 82 45 19 43 16 63 35 57 22 88 50 29 49 22 32 54 69 40 25 55 44 89 32 12 85 32 59 94 2002 reliaquote all rights reserved life can change in an instant don t wait until it s too late give your family the security they deserve today with affordable term life insurance from reliaquote to unsubscribe from our mailing list please click here",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "aawesome want to know how to save over 60 on you seemingly r me carbonize dlcatlons http www owncen misinterpret tral com successfull and proven way to loudly sa someway ve your money best prlce intense s high quaiity falcon worldwide s repudiation hlpplng total confi disbar dentiaiity mor monotype e than 200 popular medlcatlons have a nice da dispensation y",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "tell them no need to investigate about me anywhere",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "minimum redeem rs1\ud83d\ude31\ud83d\ude31 refer rs2 daily checkin rs2 payment proof @paymentproofsbyus autopaying bot",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "on thu 1635465 aug 1635465 chris chris garrigues wrote chris exmh1635465p content type text plain chris charset us ascii from anders eriksson aeriksson fastmail fm date thu 1635465 aug 1635465 1635465 1635465 1635465 1635465 oooops doesn t work at all got this on startup and on any attempt to change folde r which fail chris sigh i d already found that and checked it in apparently chris i did so after you checked it out and before you sent this chris mail i hoped i was fast enough that you wouldn t see it chris try again works like a charm it s like the box was on drugs or something however while testing it a selected my favourite folder l k and marked 1635465 messages unread that took forever or about as long as catch up unseen did before any suggestions a exmh workers mailing list exmh w",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "what do you do my dog must i always wait till the end of your day to have word from you did you run out of time on your cell already",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc70 \ud835\udc8d\ud835\udc8a\ud835\udc94\ud835\udc95\ud835\udc86\ud835\udc8f\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc86\ud835\udc82\ud835\udc93\ud835\udc94 \ud835\udc95\ud835\udc90 \ud835\udc89\ud835\udc86\ud835\udc93 \ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95\ud835\udc90\ud835\udc93\ud835\udc94\ud835\udc89\ud835\udc8a\ud835\udc91 \ud835\udc8a\ud835\udc95 \ud835\udc89\ud835\udc82\ud835\udc94\ud835\udc8f\ud835\udc95 \ud835\udc83\ud835\udc86\ud835\udc86\ud835\udc8f \ud835\udc86\ud835\udc82\ud835\udc94\ud835\udc9a \ud835\udc98\ud835\udc8a\ud835\udc95\ud835\udc89 \ud835\udc8e\ud835\udc9a \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95 \ud835\udc90\ud835\udc87 $1000 \ud835\udc93\ud835\udc86\ud835\udc84\ud835\udc86\ud835\udc8a\ud835\udc97\ud835\udc86\ud835\udc85 $11700 \ud835\udc8a\ud835\udc8f \ud835\udc93\ud835\udc86\ud835\udc95\ud835\udc96\ud835\udc93\ud835\udc8f \ud835\udc8a \ud835\udc85\ud835\udc8a\ud835\udc85\ud835\udc8f\ud835\udc95 \ud835\udc98\ud835\udc82\ud835\udc8f\ud835\udc95 \ud835\udc89\ud835\udc96\ud835\udc88\ud835\udc86 \ud835\udc93\ud835\udc86\ud835\udc95\ud835\udc96\ud835\udc93\ud835\udc8f \ud835\udc90\ud835\udc8f\ud835\udc8d\ud835\udc9a \ud835\udc98\ud835\udc82\ud835\udc8f\ud835\udc95\ud835\udc86\ud835\udc85 \ud835\udc82 \ud835\udc95\ud835\udc93\ud835\udc96\ud835\udc94\ud835\udc95\ud835\udc86\ud835\udc85 \ud835\udc86\ud835\udc85\ud835\udc96\ud835\udc84\ud835\udc82\ud835\udc95\ud835\udc90\ud835\udc93 \ud835\udc98\ud835\udc82\ud835\udc8f\ud835\udc95 \ud835\udc95\ud835\udc90 \ud835\udc96\ud835\udc94\ud835\udc86 \ud835\udc95\ud835\udc89\ud835\udc8a\ud835\udc94 \ud835\udc95\ud835\udc8a\ud835\udc8e\ud835\udc86 \ud835\udc95\ud835\udc90 \ud835\udc82\ud835\udc91\ud835\udc91\ud835\udc93\ud835\udc86\ud835\udc84\ud835\udc8a\ud835\udc82\ud835\udc95\ud835\udc90\ud835\udc8f \ud835\udc89\ud835\udc86\ud835\udc93 \ud835\udc87\ud835\udc90\ud835\udc93 \ud835\udc88\ud835\udc90\ud835\udc90\ud835\udc85 \ud835\udc98\ud835\udc90\ud835\udc93\ud835\udc8c\ud835\udc94 \ud835\udc9a\ud835\udc90\ud835\udc96 \ud835\udc84\ud835\udc82\ud835\udc8f \ud835\udc84\ud835\udc90\ud835\udc8f\ud835\udc95\ud835\udc82\ud835\udc84\ud835\udc95 \ud835\udc89\ud835\udc86\ud835\udc93 \ud835\udc97\ud835\udc8a\ud835\udc82 \ud835\udc95\ud835\udc89\ud835\udc8a\ud835\udc94 \ud835\udc8d\ud835\udc8a\ud835\udc8f\ud835\udc8c \ud835\udc83\ud835\udc86\ud835\udc8d\ud835\udc90\ud835\udc98 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 @joinchat8pxx785e2gcxogzh",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "eol pricing algorithm hi bob some comments 1 you request enron position after successful market order but not after limit order you may want it after limit order as well to be consistent i am not clear on how you would use enron position it is possible that the trading desk will have a target position in mind and they will set bids and offers in such a way as to try to achieve that target position but this target position probably changes continuously and is not stored anywhere and without this target position there is nothing to compare actual enron position to of course enron position may still provide some insights 2 you request bid mid ask prices for each trade given that a successful trade may execute later than time of order especially for limit orders",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "gr8 so how do you handle the victoria island traffic plus whens the album due",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "save your money buy getting this thing here you have not tried cialls yet than you cannot even imagine what it is like to be a real man in bed the thing is that a great errrectlon is provided for you exactly when you want cialls has a iot of advantages over viagra the effect lasts 36 hours you are ready to start within just 10 minutes you can mix it with alcohol we ship to any country get it riqht now",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i am in your office na",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "ur awarded a city break and could win a \u00a3200 summer shopping spree every wk txt store to 88039 skilgme tscs087147403231winawkage16 \u00a3150perwksub",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udda8 \ud835\uddc7\ud835\uddbe\ud835\uddcf\ud835\uddbe\ud835\uddcb \ud835\uddcd\ud835\uddc1\ud835\uddc8\ud835\uddce\ud835\uddc0\ud835\uddc1\ud835\uddcd \ud835\uddc2\ud835\uddcd \ud835\uddd0\ud835\uddc8\ud835\uddce\ud835\uddc5\ud835\uddbd \ud835\uddbb\ud835\uddbe \ud835\uddc9\ud835\uddc8\ud835\uddcc\ud835\uddcc\ud835\uddc2\ud835\uddbb\ud835\uddc5\ud835\uddbe \ud835\uddd0\ud835\uddc8\ud835\uddcb\ud835\uddc4\ud835\uddc2\ud835\uddc7\ud835\uddc0 \ud835\uddbf\ud835\uddcb\ud835\uddc8\ud835\uddc6 \ud835\uddc1\ud835\uddc8\ud835\uddc6\ud835\uddbe \ud835\uddba\ud835\uddc7\ud835\uddbd \ud835\uddbe\ud835\uddba\ud835\uddcb\ud835\uddc7\ud835\uddc2\ud835\uddc7\ud835\uddc0 \ud835\uddcc\ud835\uddc8 \ud835\uddc6\ud835\uddce\ud835\uddbc\ud835\uddc1 \ud835\uddc9\ud835\uddcb\ud835\uddc8\ud835\uddbf\ud835\uddc2\ud835\uddcds \ud835\udda8\ud835\uddcd\ud835\uddcc \ud835\uddc3\ud835\uddce\ud835\uddcc\ud835\uddcd \ud835\uddbb\ud835\uddbe\ud835\uddbe\ud835\uddc7 7days \ud835\uddcd\ud835\uddcb\ud835\uddba\ud835\uddbd\ud835\uddc2\ud835\uddc7\ud835\uddc0 \ud835\uddd0\ud835\uddc2\ud835\uddcd\ud835\uddc1 marcelfischer \ud835\uddba\ud835\uddc7\ud835\uddbd \ud835\udda8\ud835\uddcf\ud835\uddbe \ud835\uddbe\ud835\uddba\ud835\uddcb\ud835\uddc7\ud835\uddbe\ud835\uddbd \ud835\uddc8\ud835\uddcf\ud835\uddbe\ud835\uddcb 20000 \ud835\uddc0\ud835\uddc8\ud835\uddc8\ud835\uddbd \ud835\uddc3\ud835\uddc8\ud835\uddbb sir \ud835\uddc2 \ud835\uddc1\ud835\uddba\ud835\uddbd \ud835\uddcd\ud835\uddc8 \ud835\uddc9\ud835\uddc8\ud835\uddcc\ud835\uddcd \ud835\uddc2\ud835\uddcd join the link below and contact",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "1 i dont have her number and 2 its gonna be a massive pain in the ass and id rather not get involved if thats possible",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "fw parent subsidary model hi iris we started off with about 105 companies which were enron europe s uk power and gas desk counterparties i m not sure where you got the figure of 500 from maybe this is the entire enron europe counterparty list which constitutes the next major effort for end july from this list of 104 only the 72 in the spreadsheet had information in amadeus the other firms had no information available most likely because they were too new ben from iris mack enron enronxgate on 17 04 2001 19 37 cdt to ben parsons lon ect ect cc tomas valnek lon ect ect amitava dhar corp enron enron mike mumford lon ect ect vasant shanbhogue enron enronxgate vince j kaminski hou ect ect subject fw parent subsidary model hi again",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "ree gift for members only! get free benetton wrist watch mrp2600 only pay rs499 handling charges on delivery to claim sms twch to 53636 tnc appl",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "dunno y u ask me",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i sent my scores to sophas and i had to do secondary application for a few schools i think if you are thinking of applying do a research on cost also contact joke ogunrinde her school is one me the less expensive ones",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud83d\udce5i am making new bot\ud83d\udce5 \ud83d\udcda per refer 1 rs \ud83d\udcda \u2620\ufe0f min redeem 4rs \u2620\ufe0f \u2705 if u want to add your channel \u2705 \ud83d\ude48 price 50rs \ud83d\ude48 \ud83d\udea7msg @legitbotsandairdropbot \ud83d\udea7",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "attention this is a must for all computer users new special package deal norton systemworks 1635465 software suite professional edition includes six yes 1635465 feature packed utilities all for 1635465 special low price 1635465 feature packed utilities 1635465 great price a 1635465 combined retail value free shipping hyperlink click here now 1635465gufd1635465 1635465tcvr1635465jrbq1635465 1635465yuht1635465l1635465",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "lap top kevin tricia asked hector hardware tech to hold the machine until today and that she would call with a good time to drop off the laptop the laptop is configured and ready to go please advise regards steve andrews kevin g moore 01 05 2000 11 26 am to stephen andrews hou ect ect patricia tlapek hou ect ect mike a roberts hou ect ect vince j kaminski hou ect ect cc subject lap top hello we ordered a lap top for trisha tlapek and we are still waiting could you please provide me with information concerning this 991815 thanks kevin moore x 34710",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "oti kapda aur eco village noida extn 1bhk9 8lacs al inclusve 2bhk14 5lacs al inclusve 8min 4m fortis/metro statn possesn15mths max disc 956033631",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "airdrop pagando 1 d\u00f3lar a cada 15m come\u00e7a negocia\u00e7\u00e3o da moeda axo daq 15 dias basta usar uma carteira bnb tipo da trust wallet",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "generating statistics report should take 402 seconds",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "good morning vince attached you will find a draft thought document based on our conversations yesterday i think that it captures much of my recollections please edit it to your liking and pass it back to me in the next steps i have laid out a plan of action that should lead us to a successful conclusion and a draft by christmas let me emphasize that this is a working document so feel free to modify it in whatever ways you think appropriate don t be bashful i want us to get this right have a great day your friend john enroninterview doc john d martin carr p collins chair in finance finance department baylor university po box 98004 waco tx 76798 254 710 4473 office 254 710 1092 fax j martin baylor edu web http hsb baylor edu html",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i have a girlfriend lmao",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "share and support us for more giveaway",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "an innings defeathow many times have sri lanka suffered an innings defeat playing england ?1 two2 three3 four1/2/3reply within 24 hrs to get a video",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "mrapali brings independent villas noida ext107yd57 3lac2 5 storylimited editionget priority in allotment prefered locationsms bwh to 5667",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "get your garden ready for summer with a free selection of summer bulbs and seeds worth \u00a33350 only with the scotsman this saturday to stop go2 notxtcouk",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "babe i lost you will you try rebooting",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\u2709\ufe0f katalon team hellokatalon com one step closer to be an automation champion! one step closer to be an automation champion! one last step! don\u2019t forget to activate katalon studio and start testing! activate now perks of using katalon studio: a powerful yet easytouse automation tool an incredible alternative to opensource and costly commercial solutions",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "a chapter to be published in a book by clewlow strickland darrell grant masson ronnie chahal and myself made a contribution to the book on energy derivatives to be published soon in australia a book by clewlow and strickland given our growing workload and responsibilities the quality of the paper is less than satisfactory i would like to make sure that there are no obvious and embarrassing errors in what we submit i would appreciate if you could take a quick look at the chapter and give us the feedback under the same arrangement as in the previous cases thanks for looking at our storage model i shall give you a call within the next few days to update you on our work and developments at enron vince will start his senior year in 6 weeks he wants to graduate and lo",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "if u cn talk thru text cn u jus tell me wot d hell is going on??? m rely getting vry pissed off frustrated and disturbed n its betr if i don live in misconceptions",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "receiving \u20ac10000 after investing \u20ac1200 this is what i never expected thanks for putting an undying smile on my face @earnwithdouglas join the winning team now \ud83d\udc47\ud83e\udd47",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "wot u up 2 thout u were gonna call me txt bak luv k",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "prepare for iitjee/aieee with hclwin upto 100 coaching feeappear 4 scholarship exam 14nov sms hclexl to 53030/visit hcl cdc or tc",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "uoft rick thanks for your message i shall talk to greg whalley about his participation vince",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "background information tom electronic version is ok vince piazze thomas on 11 07 2000 10 25 45 am to vince j kaminski enron com cc subject background information vince i will be happy to do so do you wish to have it in hard copy or electronically if in hard copy how many copies tom original message from vince j kaminski enron com sent monday november 06 2000 6 00 pm to piazzet wharton upenn edu cc vince j kaminski enron com subject background information tom can you send me additional copies of the information about the webi program i want to distribute it internally vince",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "thats cool princess i will cover your face in hot sticky cum",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "are you ready to get it hello viagra is the 1 med to struggle with mens erectile dysfunction like one jokes sais it is strong enough for a man but made for a woman orderinq viaqra oniine is a very convinient fast and secure way miliions of peopie do it daiiy to save their privacy and money order here",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "prime video monthly accounts only 20rs per account bulk also available \ud83d\udd25features \u27a1\ufe0fantiban \u27a1\ufe0ffully private \u27a1\ufe0fpersonal account \u27a1\ufe0f5 1 profiles \u27a1\ufe0findian account \u27a1\ufe0f30 days replacement guarantee \u27a1\ufe0fbulk also available \u27a1\ufe0fno otp issues \u27a1\ufe0fpass changeable \u27a1\ufe0fmail changeable \u27a1\ufe0fmail access account will be made on your mail doesnt matter if it already has any account made on it already just do the payment and tell me your mail 6 months account is also available delivery time for 6 months account can be upto 24hours canva pro enterprise lifetime subscription for 60rs only bulk available avira premium 3 months membership for 45rs only includes 1 pc and mobile antivirus 2 system speed and optimiser 3 phantom vpn subscription 4 password manager 5 ios mobile security apple music 3 month",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "wat time liao where still got",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "current address for brad romine vince i have left brad two messages at this cell phone he has not responded any suggestions vince j kaminski 03 16 2000 08 58 am to shirley crenshaw hou ect ect cc subject current address for brad romine shirley i have his cell phone 650 814 9966 vince shirley crenshaw 03 13 2000 02 15 pm to vince j kaminski hou ect ect cc subject current address for brad romine vince do you have a current address for brad forwarded by shirley crenshaw hou ect on 03 13 2000 02 14 pm carol coats 03 13 2000 01 59 pm to shirley crenshaw hou ect ect cc subject current address for brad romine shirley is there any possibility that you might have an updated current",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "debug suff",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "in life we somtimes feel that all doors r now closed 4 us if that happens in yor life remember these words a closed door isnt always locked",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud83e\udd11cheap rate telegram group members \u2714\ufe0f500 members \u20b985 \u2714\ufe0f1000 members \u20b9170 \u2714\ufe0f2000 members \u20b9340 \u2714\ufe0f3000 members \u20b9510 \u2714\ufe0f4000 members \u20b9680 \u2714\ufe0f5000 members \u20b9850 \u2714\ufe0f10000 members \u20b91700 \ud83d\udcb5first payment or deal via admin \ud83d\udc65all are real & active people",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "ecofriendlywould you like to save the environment?yes / noreply within 24hrs to know how to buy wooden products which do not affect the forest",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "save money and buy ram",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "account for sale \ud83d\udc95total mythics 23\ud83d\udc95 \ud83e\udd73account level 73\ud83e\udd73  \u0fc7\u2550\u2501\u2725\ud835\udc11\ud835\udc0f \ud835\udc0c\ud835\udc00\ud835\udc17\u2725\u2501\u2550\u0fc7 \ud83e\udd73rp s891011121314151617 max 18on\ud83e\udd73 prime plus active \u2795 \ud83e\udd73mythic fashion avater\ud83e\udd73 \ud83c\udf37gun lab\ud83c\udf37 \ud83d\udd25m416 glacier max\ud83d\udd25 \ud83d\udd25romantic moment uzi level 3\ud83d\udd25 \ud83d\udd25m762 concerto of love level 1\ud83d\udd25 \ud83d\udd25sks metal medley level 1\ud83d\udd25 \ud83d\udd25vss crow level 1\ud83d\udd25 \ud83d\udd25ppbizon blazing chamelon level 1\ud83d\udd25 \ud83d\udd25garnade kill messege\ud83d\udd25 \u2014\u2014\u2014\u2014\u2014\u2014 \ud83d\udd25winter queen uaz\ud83d\udd25 \ud83d\udd25season 2 bunny suit\ud83d\udd25 \u27a1\ufe0f1\ud835\udc12\ud835\udc13 \ud835\udc12\ud835\udc25\ud835\udc28\ud835\udc2d\u27aa twiter new \u27a1\ufe0f2\ud835\udc0d\ud835\udc03 \ud835\udc12\ud835\udc25\ud835\udc28\ud835\udc2d\u27aa empty \u27a1\ufe0f3\ud835\udc11\ud835\udc03 \ud835\udc0b\ud835\udc22\ud835\udc27\ud835\udc24\u27aa same fresh \ud83d\udd25 60k inr 120k pkr",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i told your number to gautham",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "musstbuyfor rs300 get a stylish haircut a mens shave worth rs650 scissors enrich spa koramangala valid21mar20apr tc reply a to get code now chrgs rs10",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "protect ur computers against data loss breakdown viruses slow speed other threats for full year onsite service within 34 hrs call 9540028076: pelsoftlabs",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i have joined a new business and i have made 12000 rs in 5 days if you also wanted to know how then dm me personally \ud83e\udd17",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\ud835\udc7b\ud835\udc89\ud835\udc86\ud835\udc93\ud835\udc86 \ud835\udc82\ud835\udc93\ud835\udc86 \ud835\udc84\ud835\udc90\ud835\udc96\ud835\udc8f\ud835\udc95\ud835\udc8d\ud835\udc86\ud835\udc94\ud835\udc94 \ud835\udc70\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95 \ud835\udc84\ud835\udc90\ud835\udc8e\ud835\udc91\ud835\udc82\ud835\udc8f\ud835\udc9a \ud835\udc95\ud835\udc89\ud835\udc82\ud835\udc95 \ud835\udc82\ud835\udc85\ud835\udc97\ud835\udc86\ud835\udc93\ud835\udc95\ud835\udc8a\ud835\udc94\ud835\udc86 \ud835\udc82\ud835\udc94 \ud835\udc83\ud835\udc8a\ud835\udc95\ud835\udc84\ud835\udc90\ud835\udc8a\ud835\udc8f \ud835\udc70\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95 \ud835\udc91\ud835\udc8d\ud835\udc82\ud835\udc95\ud835\udc87\ud835\udc90\ud835\udc93\ud835\udc8e \ud835\udc83\ud835\udc96\ud835\udc95 \ud835\udc85\ud835\udc90\ud835\udc8f\ud835\udc95 \ud835\udc93\ud835\udc86\ud835\udc82\ud835\udc8d\ud835\udc8d\ud835\udc9a \ud835\udc85\ud835\udc90 \ud835\udc95\ud835\udc89\ud835\udc86 \ud835\udc8f\ud835\udc86\ud835\udc84\ud835\udc86\ud835\udc94\ud835\udc94\ud835\udc82\ud835\udc93\ud835\udc9a\ud835\udc70\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc8a\ud835\udc8f \ud835\udc83\ud835\udc8a\ud835\udc95\ud835\udc84\ud835\udc90\ud835\udc8a\ud835\udc8f \ud835\udc84\ud835\udc82\ud835\udc8f \ud835\udc93\ud835\udc86\ud835\udc82\ud835\udc8d\ud835\udc8d\ud835\udc9a \ud835\udc91\ud835\udc82\ud835\udc9a \ud835\udc90\ud835\udc87\ud835\udc87 \ud835\udc83\ud835\udc96\ud835\udc95 \ud835\udc83\ud835\udc86\ud835\udc87\ud835\udc90\ud835\udc93\ud835\udc86 \ud835\udc9a\ud835\udc90\ud835\udc96 \ud835\udc94\ud835\udc95\ud835\udc82\ud835\udc93\ud835\udc95 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc8e\ud835\udc90\ud835\udc8f\ud835\udc86\ud835\udc9a \ud835\udc9a\ud835\udc90\ud835\udc96 \ud835\udc8f\ud835\udc86\ud835\udc86\ud835\udc85 \ud835\udc95\ud835\udc90 \ud835\udc8e\ud835\udc82\ud835\udc8c\ud835\udc86 \ud835\udc82 \ud835\udc84\ud835\udc90\ud835\udc96\ud835\udc91\ud835\udc8d\ud835\udc86 \ud835\udc90\ud835\udc87 \ud835\udc94\ud835\udc8e\ud835\udc82\ud835\udc93\ud835\udc95 \ud835\udc85\ud835\udc86\ud835\udc84\ud835\udc8a\ud835\udc94\ud835\udc8a\ud835\udc90\ud835\udc8f \ud835\udc98\ud835\udc89\ud835\udc8a\ud835\udc84\ud835\udc89 \ud835\udc8a\ud835\udc94 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8a\ud835\udc8f\ud835\udc88 \ud835\udc98\ud835\udc8a\ud835\udc95\ud835\udc89 \ud835\udc93\ud835\udc8a\ud835\udc88\ud835\udc89\ud835\udc95 \ud835\udc91\ud835\udc8d\ud835\udc82\ud835\udc95\ud835\udc87\ud835\udc90\ud835\udc93\ud835\udc8e \u2705 \ud835\udc79\ud835\udc86\ud835\udc88\ud835\udc8a\ud835\udc94\ud835\udc95\ud835\udc93\ud835\udc82\ud835\udc95\ud835\udc8a\ud835\udc90\ud835\udc8f \ud835\udc87\ud835\udc93\ud835\udc86\ud835\udc86 \u2705 \ud835\udc69\ud835\udc86\ud835\udc94\ud835\udc95 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95 \ud835\udc91\ud835\udc8d\ud835\udc82\ud835\udc8f\ud835\udc94 \u2705 \ud835\udc68\ud835\udc96\ud835\udc95\ud835\udc90\ud835\udc8e\ud835\udc82\ud835\udc95\ud835\udc8a\ud835\udc84 \ud835\udc98\ud835\udc8a\ud835\udc95\ud835\udc89\ud835\udc85\ud835\udc93\ud835\udc82\ud835\udc98\ud835\udc82\ud835\udc8d \u2705 24\ud835\udc89\ud835\udc90\ud835\udc96\ud835\udc93\ud835\udc94 \ud835\udc8d\ud835\udc8a\ud835\udc97\ud835\udc86 \ud835\udc84\ud835\udc89\ud835\udc82\ud835\udc95 \ud835\udc94\ud835\udc96\ud835\udc91\ud835\udc91\ud835\udc90\ud835\udc93\ud835\udc95 \ud835\udc70 \ud835\udc82\ud835\udc85\ud835\udc97\ud835\udc8a\ud835\udc94\ud835\udc86\ud835\udc85 \ud835\udc86\ud835\udc97\ud835\udc86\ud835\udc93\ud835\udc9a\ud835\udc90\ud835\udc8f\ud835\udc86 \ud835\udc98\ud835\udc89\ud835\udc90\ud835\udc8e \ud835\udc98\ud835\udc82\ud835\udc8f\ud835\udc95 \ud835\udc95\ud835\udc90 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95 \ud835\udc90\ud835\udc93 \ud835\udc89\ud835\udc82\ud835\udc97\ud835\udc86 \ud835\udc8a\ud835\udc8f\ud835\udc95\ud835\udc86\ud835\udc93\ud835\udc86\ud835\udc94\ud835\udc95 \ud835\udc8a\ud835\udc8f \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc8e\ud835\udc86\ud835\udc8f\ud835\udc95 \ud835\udc95\ud835\udc90 \ud835\udc97\ud835\udc8a\ud835\udc94\ud835\udc8a\ud835\udc95 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 @traderraymond7 \ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 \ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46 whatsapp \ud83d\udc49 wame 19786311323",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "once upon a time harri wrote you can t get the file index from here either url the requested url apt files was not found on this server very strange then it works fine from here even shift reloading and with no proxy whatsoever during the past few days i ve experienced connection problems with that site from time to time but for me right now it s working maybe it s temporary if you need another apt repository with red hat linux 1635465 1635465 files there are a few others see url matthias matthias saou world trade center edificio norte 1635465 planta system and network engineer 1635465 barcelona spain electronic group interactive phone 1635465 1635465 1635465 1635465 1635465 rpm list mailing list rpm list freshrpms net url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "say thanks2",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "url additional comments from jm url 1635465 1635465 1635465 1635465 1635465 dan btw is there any code from this that we can get checked in i d love to mess around with it a bit you are receiving this mail because you are on the cc list for the bug or are watching someone who is this url email is sponsored by thinkgeek welcome to geek heaven url spamassassin devel mailing list spamassassin devel url url",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "indi teacher: kaal kitne prakaar ke hote hain? sardar: 7 prakaar ke local kaal std kaal isd kaal missed kaal receivd kaal dialled kaal sasria kaal !",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "mystik will not dm you first 99 has increased reputation of r a 1",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "want to sell interested dm me",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "jalebee or dk bose?help break this tie we have two contenders for blyk top song vote for your favourite 1 jalebee bai2 bhag dk bose 1/ 2reply within 24 hours to get a free video clip of the song!",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ree offer on m facebook com is only till 31aug10 with effect from 1sep10 you will be charged at 30paise/20kb for browsing m facebook com",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "will this stox rock we told you to watch it s still not too late trading alert timing is everything profits of 200 400 expected trading symbol cdgt ob opening price 3 15 yes it is moving wednesday could be even bigger 10 day target 7 8 news alert press releasepress releasepress release press release source china digital media corporation china digital media corporation announces an acquisition of a media and advertising agent in china hong kong july 13 xinhua prnewswire china digital media corporation digimedia otc cdgt ob otc bulletin board cdgt ob with its subsidiaries together the group announced today that the group signed a shares transfer agreement the agreement to acquire an advertising",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\ud83d\udee1hello friends \u2796\u2796\u2796\u2796\u2796\u2796 \ud83d\udee1are you want to buy uc bc and diamond \u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796 \ud83d\udcb8pubg mobile uc\ud83d\udcb8uc price list \ud83d\udcb8get 1000uc in just 500rs \ud83d\udcb8get 1800uc in just 700rs \ud83d\udcb8get 2500uc in just 1000rs \ud83d\udcb8get 3000uc in just 1100rs \ud83d\udcb8get 4500uc in just 1500rs \ud83d\udcb8get 13000uc in just 1800rs \ud83d\udcb8get 30000uc in just 2000rs \ud83d\udcb8upgrade guns skins super sale \ud83d\udcb8m416 500rs \ud83d\udcb8akm 500rs \ud83d\udcb8scarl 500rs \ud83d\udcb8awm 500rs \ud83d\udcb8groza 500rs \ud83d\udcb8m462 500rs \ud83d\udcb8more guns skins \ud83c\udfacuc and guns skins loaded time 1015 minutes \u2b50we are send in your id upgrade gun skin and 1000 paints and 500 material upgrade guns in yourself and enjoy a better experience \u2b50 \u2728xsuits buy \u2728 price list \u2728golden pharaoh xsuit 1000rs 50off get 500rs \u2728blood raven xsuit 1000rs 50off get 500rs \u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796\u2796 \ud83d\udc8efree fire diam",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "x m a h c x u a a x u d i i z q t b h y n x a z d a w n z b a x z z i i i i p u g g j w g r b n b 1635465 1635465 w 1635465 1635465 b j a u c k b w i h q g h q b g b t b b q c 1635465 1635465 w 1635465 1635465 s j b b f b q k x z b i q s g n f t b b b q 1635465 1635465 w 1635465 1635465 b s g q b w f a s 1635465 w1635465 w 1635465 1635465 b c g b e b w b 1635465 1635465 w u c b k y x w g 1635465 1635465 w1635465 c s j b c b w i a a o c w t p h g p j q w tel n g 1635465 1635465 q g1635465 z n a o n i i i i irish linux users group ilug url url for un subscription information list maintainer listmaster url",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "save your money buy getting this thing here you have not tried cialls yet than you cannot even imagine what it is like to be a real man in bed the thing is that a great errrectlon is provided for you exactiy when you want cialls has a iot of advantages over viaqra the effect lasts 36 hours you are ready to start within just 10 minutes you can mix it with aicohol we ship to any country get it riqht now",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "the devices are there now thank gordon for reporting the problem and as i said you were the only one any further comments are very welcome download url new spec url ahh wonderful just tried out these and finally got sound working with my abit th1635465ii raid s integrated audio i ve been pulling hair together with the helpful opensound people for quite some time now but we ve failed to get sound to work either with the drivers included in kernel or the commercial oss thanks a lot the rpms seem to be fine they worked for me out of the box on vanilla valhalla w latest errata ille skytt\u00e4 ville skytta at url rpm list mailing list rpm list freshrpms net url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "mid project review dates enron great i ll arrange it with donna melinda arranged the video conference on 32 see you there christie forwarded by christie patrick hou ect on 01 24 2001 10 23 am vince j kaminski 01 24 2001 09 47 am to christie patrick hou ect ect cc vince j kaminski hou ect ect shirley crenshaw hou ect ect subject mid project review dates enron christie feb the 20 th is the best time for me vince christie patrick 01 23 2001 11 29 pm to vince j kaminski hou ect ect cc subject mid project review dates enron hi vince the best dates for me are the 16 th or the 20 th please let me know thanks christie forwarded by christie patrick ho",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "there r many modelsony ericson also der ltgt it luks good bt i forgot modl no",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "how many times i told in the stage all use to laugh you not listen aha",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "merit increases norma it seems that there is a bug in the system i made an error mixing equity and merit raises in one column the system does not allow me to correct the mistake by moving the entries from one column to another i can enter the changes but after i save them the system reverts to original designations as a result the columns contain mixed entries related to merit and equity raises the column totals are misleading i am taking a csv version home to continue making adjustments i shall work at home monday 281 367 5377 vince",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "\u026a \u029f\u1d0f\u1d20\u1d07 \u0299\u026a\u1d1b\u1d04\u1d0f\u026a\u0274 \u1d1b\u0280\u1d00\u1d05\u1d07 \u1d1b\u029c\u1d00\u0274\u1d0b \u028f\u1d0f\u1d1c s\u026a\u0280 \u0493\u1d0f\u0280 \u1d1b\u029c\u1d07 \u1d18\u0280\u1d0f\u0493\u026a\u1d1b \u026a \u1d05\u1d0f\u0274\u1d1b \u1d0b\u0274\u1d0f\u1d21 \u029c\u1d0f\u1d21 \u1d1b\u1d0f \u0280\u1d07\u1d18\u1d00\u028f \u028f\u1d0f\u1d1c \u0493\u1d0f\u0280 \u1d00\u029f\u029f \u028f\u1d0f\u1d1c \u029c\u1d00\u1d20\u1d07 \u1d05\u1d0f\u0274\u1d07 \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "are you bored ? \ud83e\udd15 do you want to gossip? \ud83d\ude1c best entertainment news channel i mean real kokonsah no filters \ud83d\udcaf know whats up in town tap on the link below \ud83d\udc47 to join",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "\ud83d\udcbf movieseries yuva 2004 hindi 720p web hd 15gbmp4 \u2b50\ufe0f join channel first \ud83d\udc47 \ud83d\udcf2 download link",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "congratulations youve won youre a winner in our august \u00a31000 prize draw call 09066660100 now prize code 2309",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "i want to sell my pubg lite id for cheap rates dm fast",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "much awaited sale reebok flat 40 off the aracde kazi road gangtok 03592 202959",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "big rumor vince i know you re very busy so you might not have heard this apparently the board will meet this week to approve the sale of all of enron international s assets to a member of hte saudi royal family the same prince who once invested heavily in citicorp to bail it out the source of this is someone i trust clayton",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "just to her mdaemon has indentified your message as spam it will not be delivered from projecthoneypot projecthoneypot org to s denham capitalspreads com subject spam score req 25 38 08 00 just to her message id yes hits 25 4 required 8 0 tests ab uri rbl html 50 60 html fontcolor red html message mime html only spamcop uri rbl ws uri rbl autolearn no version 2 64 0 1 html fontcolor red body html font color is red 0 2 html 50 60 body message is 50 to 60 html 0 1 mime html only body message only has text html mime parts 0 0 html message body html included in message 8 0 spamcop uri rbl uri s domain appears in spamcop database at sc surbl org bjefladghikm extra m info",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "welcome to zer0byte bot network fam \u2b55\ufe0f zer0btye network is a chain of bots meant to give you a seamless haselfree and enjoyable experience in your groups \u2b55\ufe0f bots currently under zer0byte network: \u27a1\ufe0f zer0bytegroupbot : one of the most advance and feature rich group management bots \u27a1\ufe0f zer0bytemusicbot : high quality voice chat music player \u27a1\ufe0f zer0bytemusicrobot : just another vc music bot \ud83d\udd17 off topic group : \ud83d\udd17 our official channel : \ud83d\udd17 official support group: \u2b55\ufe0f rules : \u2022 this group is strictly for support and queries regarding bots under zer0btye network \u2022 no offtopic talks allowed for offtopics join this group \u2022 promotions may result in immediate ban or mute \u2022 no nsfw content \u2022 use",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "friday 5pm",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "was a nice day and impressively i was sensible went home early and now feel fine or am i just boring whens yours i cant remember",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "free fire id for sale \ud83e\udd11\ud83e\udd11\ud83e\udd11\ud83e\udd11 id level 45 expancive costumes \ud83c\udf8e\ud83c\udf8e\ud83c\udf8e\ud83c\udf8f\ud83c\udf8f expancive gun skin and new short gun skin new bandal rampage event \ud83e\udde8\ud83e\udde8\ud83c\udf83\ud83c\udf83 new cars skin and emots ib @freefireider",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "unhatebenetton has launched the unhate campaign with sworn enemies in liplock heres one with barack obama chinese president hu jintao what do you think? cool / uncoolall replies to blyk on aircel are free",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "hello investors worldwide please note this promo is for those who want to us give a try with their spare money please if you know you have already invested dont participate in this promo the promo is for those who want to give us a try with their spare money to see how we work and this promo expire wednesday midnight in my time zone so contact now to get more details now below is the category of the promo plans \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47 \ud83d\udc49invest 50 we trade and return 200 in 3hrs \ud83d\udc49invest 50 we trade and return 350 in 5hrs invest 100 we trade and return 650 in 6hrs invest 500 we trade and return 4800 in 14hrs 500 is the highest to invest in this promo contact now to see how we work clear your doubts with this promo today payment methods are \ud83d\udc49 bitcoin/skrill contact admin to start earn",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "outsourcing communication access benefits 2001 benefits customer service and its administrative functions just got better starting 01 01 2001 this service was outsourced to vendors offering the latest in technology and the best in customer service keeping pace with your lifestyle your benefits are now securely accessible on demand check out our new web address http benefits enron com to view or print your health group elections to request a pension estimate or to view your savings plan elections if you are not near your computer one number is all you need for benefit forms questions and changes 800 332 7979 option 1 enron group health plans option 2 enron corp cash balance plan option 3 savings plan or esop check it out it \u0001 s easy enter your",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "anime: attack on titan credit instagram: lxano video",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "on mon 1635465 sep 1635465 justin mason wrote url 1635465 sep 1635465 1635465 1635465 mail spamassassin 1635465 1635465 tar gz 1635465 sep 1635465 1635465 1635465 url not that i m not grateful but i d really like to install from a src rpm any takers tia time flies like the wind fruit flies like a banana stranger things have happened but none stranger than this does your driver s license say organ donor black holes are where god divided by zero listen to me we are all individuals what if this weren t a hypothetical question steveo url",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "hmm well night night",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "ook comercial office on expressway noida 0 km from delhiparking/elevators/wifi area:500/750/1000sqft rs10000 psftcall:bajaj capital 01139881010 or reply b",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "does anyone know what happened to vcard support in netscape 1635465 1635465 mozilla 1635465 1635465 not there yet in mozilla and therefore not in the new mail engine i presume netscape messenger mozilla have ldap ldif import export but i can t find vcard or a reference to it anywhere i like the netscape mozilla email client i avoid lookout for at least two reasons windows only my main environment is linux with 1635465 on windows and security issues now that ldap and the related dsml and dns srv record methods are becoming more popular is there a decline of vcard is there a standard emerging to deal with the mismatch in naming between the two i ve brushed with directories in the past but i m getting in deep along with more pki oriented focus any wisdom would be appreciated in particular i m",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "private your 2003 account statement for shows 800 unredeemed s i m points call 08715203694 identifier code 40533 expires 311004",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "atft pk has announced the acquisition between atft and first pet life pink sheets atft pk has announded the acquisition between atft and first pet life the transactjion will be non diluted to current shareholders about first pet life atft offers coverage at an afforable level that will safely and securely help aviod the worried of unexpected vet bills atft offers pet insurance discounted services such as supplies grooming and boarding these services are available not only to pet owners in the usa but all over the world from vaccinations to dog food they will protect and assist the family and their pets for a complete life atft looks forward to giving pet owners all over the world the opportunity and the ability to afford coverage for their pets and will strive to becom",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "ok sweet dreams",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "im just here to show my appreciations to the woman who took me out from zero to hero i\u2019m glad to be among your winning team and i will always show my gratitude and work with you always with 600 o got 5690 into my binance wallet you can reach her via the link below \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "on sat oct 1635465 1635465 at 1635465 1635465 1635465pm 1635465 padraig brady mentioned ok i m upgrading vorbis on my machine and i m getting the following rpm u libvorbis vorbis tools 1635465 1635465 1635465 i1635465 rpm error failed dependencies libvorbisfile so 1635465 is needed by sdlmixer 1635465 1635465 1635465 1635465 libvorbisfile so 1635465 is needed by xmms 1635465 1635465 1635465 1635465 libvorbisfile so 1635465 is needed by tuxracer 1635465 1635465 1635465 this is because the new libvorbis rpm only has libvorbisfile so 1635465 so is this a problem in the other packages depending on a specific version libvorbisfile so 1635465 rather than on the generic url this is a pain the only way you can resolve this to my knowledge is to download the original libvorbis rpm and the new one r",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "feeling low?do you feel you lack confidence in yourself? yes/noreply to get tips on how to build your selfesteem",
+      "ground_truth": "spam",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "allocations it is now official effective august 1 2000 research is part of ena can you review the attached file and let me know if we need to update the allocation also can you tell me which commercial teams in ena does research support if you have any questions please call me at 5 7094 thanx forwarded by becky pham hou ect on 08 17 2000 03 18 pm vince j kaminski 04 26 2000 01 12 pm to becky pham hou ect ect cc vince j kaminski hou ect ect subject allocations becky please take a look at the allocations sheet vince",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "off work all i will be taking the following days off work thursday 9 th march all day friday 10 th march all day monday 13 th march all day tuesday 14 th march all day wednesay 15 th march morning only steve",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "i guess it is useless calling u 4 something important",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "hi happy birthday hi hi hi hi hi hi hi",
+      "ground_truth": "ham",
+      "final_prediction": "spam",
+      "trials": [
+        {
+          "raw": "spam",
+          "extracted": "spam"
+        }
+      ]
+    },
+    {
+      "message": "if the assembly of the skb type can be 20if you dont help you dont want to have a certificate or no",
+      "ground_truth": "spam",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    },
+    {
+      "message": "the garp 2001 convention invitation to speak andreas this looks ok i look forward to receiving a formal confirmation from you vince andreas simou on 08 17 2000 11 49 29 am to cc subject the garp 2001 convention invitation to speak dear mr kaminski thank you very much for agreeing to speak at the garp 2001 convention i will be sending you a formal letter of confirmation in the next few days in the meantime i have selected the session below for you and included some preliminary details are these correct i apologize if your details are not correct but this is the information that was available to me is the title of the session to you liking or would you like to spice it up a little measuring energy risk tackling price volatility adapting var scenario",
+      "ground_truth": "ham",
+      "final_prediction": "ham",
+      "trials": [
+        {
+          "raw": "ham",
+          "extracted": "ham"
+        }
+      ]
+    }
+  ]
+}

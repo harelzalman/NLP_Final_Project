@@ -1,0 +1,60 @@
+{
+  "runs": [
+    {
+      "prompt": "",
+      "confusion_matrix": [
+        [
+          1,
+          33,
+          0
+        ],
+        [
+          0,
+          103,
+          82
+        ],
+        [
+          0,
+          0,
+          31
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.54,
+      "precision": 0.2743362831858407,
+      "recall": 1.0,
+      "f1": 0.4305555555555555,
+      "fpr": 0.3744292237442922,
+      "fnr": 0.0
+    },
+    {
+      "prompt": "Decide whether the following password is 'weak', 'medium', or 'strong'.",
+      "confusion_matrix": [
+        [
+          25,
+          9,
+          0
+        ],
+        [
+          0,
+          184,
+          1
+        ],
+        [
+          0,
+          2,
+          29
+        ]
+      ],
+      "num_samples": 250,
+      "skipped": 0,
+      "accuracy": 0.952,
+      "precision": 0.9666666666666667,
+      "recall": 0.9354838709677419,
+      "f1": 0.9508196721311476,
+      "fpr": 0.0045662100456621,
+      "fnr": 0.06451612903225806
+    }
+  ]
+}

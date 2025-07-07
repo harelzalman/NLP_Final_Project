@@ -1,0 +1,1254 @@
+{
+  "results": [
+    {
+      "password": "vi224400089",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "catdog111222",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "e1m5i5l532",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "minhthanh1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "vohljaci1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "asdfzxcv123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "yvcbi301108",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "wx286515",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "shenglay08",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "AkvHIRjQ0Ng2CL16",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "malaga12",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "spampass123",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "koisoft786",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "lwnFlIjU4Mgbhd4U",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ry2w8ifipa",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "ms830724",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "cbafdhji4",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "gummybear007",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "uganda256",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kaqan2",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "yseza851",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "cesar22",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "kuras234",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "300nuogu",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "portos89",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "CPSczkjg5MA8qOA0",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "viya541873",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kajihot518",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "vcbruo7",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "alezy608",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "f39831251",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "motyj905",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "checho45",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ma481012",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "fzQoctDcwMAOd7Vw",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "kZNadmTA1MQWh3A6",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "7654321cc",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ivtnadau6",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "sancarsay123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "o43nuvgoxd",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "17dead",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "pedro28",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "iakrer5ogp6z",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "andra1986",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "selcuk1976",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "qazab240",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "Zn4Ih7DQ5NwL9ZJT",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "adm1ns",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "yankie1",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "tNMBFmDAyNgcDt8U",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "daffy180",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "vigneshviki8",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "x6nbRADA2OATH1Lk",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "1214255190gh",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "callMEmaybe098",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "maciej10",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "kg5jm64f2m",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "24051994v",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "hueso1145",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "wongteg4l",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "7duic972",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "0kz3NlDc1OAIk0zL",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ralins123",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "flakita113006",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "wuzi1354231",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "delal01",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "namemail44",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "120483.",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "zakir90",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "t59lwzma",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "glock17",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "omega1980",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "tyler77",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "sebe55555",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "idohaz606",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "aZEbyPEZoxy697",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "123456egsh",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "power031111",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "enetn2",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "hugo1333",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "samjhana45",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "jorgeme!ster+199494",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "cypeco368",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "kesadaran99",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "884b6549f5",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "pazar53",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "saat6565",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "10bety",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "fqpabjxgh32",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "moosey123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "Xvxq9bdVdJs5bZcw",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "RiJoXuXAJab847",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "8984072pik",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "DesAsIfEhIMa223",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "gaa123",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "general673",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "epume464",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ehilob878",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kS6wXNzg0MwXjxYw",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ZnUaH0jU3MgcfB4J",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "A94ZnITc3MAEbt1U",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "olpitj0",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "Proyecto_Uranus2",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "naruto369",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "7896541230any",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "selocan1974",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "ovicy784",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "vojke123321",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "ss2012",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "mejn82",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "moneypato1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "nanaizhen123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "h87mws0y",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "iamacunt1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "bDxJqzTQ5OAMR7OG",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "glo5t4um",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "193114mmhalll",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "tdlquvpb13",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "n8ogzj4",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "ausdjmyin103",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "platano12",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "muhammad01",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "gilfdhy430",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "mylyw315",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ziben777",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "hmblpegqu6",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "eenees1245",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "zoli89",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "ijah24109972",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "ofuda274",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "pakia4075",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "bk1iXWzMyOQGo5nx",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "07121996mk",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "adminseph123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kociupka11",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "mostar14",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "lee210",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "54236585ibo",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "krisse705",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "trotter69",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "iguziwo376",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "84j9jjvwm",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "rD76BUDExNwvcj0y",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "manitari1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "mason671",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "vampire00",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "victories1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "cSlfFVDc1MAl8vzh",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ckxgpmo4",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "hogger34",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "kalyan123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "yono010281",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "libya99",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "chulavista1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "kas072286",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "yugioh32",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "paf066",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "matute123",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "flaps2ana",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "pakoste07",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "M0D3LT0PPHILIPS&YAHIR",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "chalo18",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "djlsTwZPL98kmx8",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "123456789mf",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "kayaraya25",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "147896325vi",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "4yf2x66it",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "aqiqyq607",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "magma2236",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "md220134",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "okurav520",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "2008lngtangguh@",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "jasiu123",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "dg6oIaDQwMwpj6yH",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ren4714099",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "asd5456asd",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "zoroark97",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "25690pepe",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "gatolubu7",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "memomom007",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "456123789u",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "bluebolt1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "veere2",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "q894925941",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "chenking123",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "cobadibac4",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "zacharyt3",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "tcpippop3",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "vacance2012",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "freedom47",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "EogVYmjgzNAWK5jr",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "tibia1",
+      "ground_truth": "weak",
+      "prediction": "weak"
+    },
+    {
+      "password": "01041988love",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "0612jcjoy",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "28828626n",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "matt2233",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "karami190590",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "iz83v653",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "cc011287",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "senegal33",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "xiaolin00",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "yaser29111987",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "always818",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "86319725865sg@",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ikovuwa473",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "02133968547+",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "panico001",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "shin0426",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "delta1234",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "22616kbpn",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "r3phkk5",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "comugede6",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "masha1996",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "senghort168k",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "ilutiago29",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kossos281191",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kopparw1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "audio1986",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "turi2014",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ghali1710",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "ugusyto487",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "mjslmjsl1188",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "3marina",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "ylupe26",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "marheni08",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "88221100u",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "cooltext1",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "20010515q",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "mer477353",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "c1uq7tb",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "thunder314",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "mehmet43",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "deadpower7",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "dm5q5oez",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "GAdaKYtOdILi951",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "pintura08",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "primera2011",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "pasini1995",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "obuzuxo847",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "furaselc28",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "tjfdlrab0",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "g125125125",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "5400754kofj",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "kosec91",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "6232df53df",
+      "ground_truth": "medium",
+      "prediction": "medium"
+    },
+    {
+      "password": "manolo6",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "sIPIduwywYX266",
+      "ground_truth": "strong",
+      "prediction": "strong"
+    },
+    {
+      "password": "ukvqpbhclqsu1",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    },
+    {
+      "password": "sport22",
+      "ground_truth": "weak",
+      "prediction": "medium"
+    },
+    {
+      "password": "vero7777",
+      "ground_truth": "medium",
+      "prediction": "strong"
+    }
+  ]
+}

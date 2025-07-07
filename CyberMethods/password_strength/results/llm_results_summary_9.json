@@ -1,0 +1,28 @@
+{
+  "prompt": "Assess whether the password follows keyboard patterns (e.g., 'qwerty', 'asdfgh'). Such patterns are easy to guess and should be marked weak.",
+  "confusion_matrix": [
+    [
+      3,
+      25,
+      6
+    ],
+    [
+      7,
+      72,
+      106
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.424,
+  "precision": 0.41968375267344343,
+  "recall": 0.49247482776894547,
+  "f1": 0.33444125777214556,
+  "fpr": 0.30947943904564906,
+  "fnr": 0.5075251722310545
+}

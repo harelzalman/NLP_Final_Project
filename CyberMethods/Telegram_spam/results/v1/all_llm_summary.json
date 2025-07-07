@@ -1,0 +1,319 @@
+{
+  "runs": [
+    {
+      "prompt": "",
+      "counts": {
+        "TP": 118,
+        "FP": 75,
+        "TN": 50,
+        "FN": 7,
+        "unknown": 0
+      },
+      "precision": 0.6113989637305699,
+      "recall": 0.944,
+      "f1": 0.7421383647798742,
+      "fpr": 0.6,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'.",
+      "counts": {
+        "TP": 87,
+        "FP": 22,
+        "TN": 103,
+        "FN": 38,
+        "unknown": 0
+      },
+      "precision": 0.7981651376146789,
+      "recall": 0.696,
+      "f1": 0.7435897435897435,
+      "fpr": 0.176,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Examine the Telegram message\u2019s lexical and syntactic patterns, paying attention to unusual punctuation (e.g., \"!!!\"), excessive capitalization, and repetitive phrasing. Compare these signals against typical conversational norms\u2014if the structure deviates sharply from personal chat style, label it as spam; otherwise, mark as ham.",
+      "counts": {
+        "TP": 122,
+        "FP": 76,
+        "TN": 49,
+        "FN": 3,
+        "unknown": 0
+      },
+      "precision": 0.6161616161616161,
+      "recall": 0.976,
+      "f1": 0.7554179566563467,
+      "fpr": 0.608,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Evaluate the message for embedded URLs, shortened links, or attachments. For any links found, cross-reference their domains against known safe versus risky lists. If the message contains high-risk or obfuscated links, classify it as spam; if links are from trusted domains or none are present, classify as ham.",
+      "counts": {
+        "TP": 88,
+        "FP": 13,
+        "TN": 112,
+        "FN": 37,
+        "unknown": 0
+      },
+      "precision": 0.8712871287128713,
+      "recall": 0.704,
+      "f1": 0.7787610619469026,
+      "fpr": 0.104,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Perform sentiment and urgency analysis: spam often uses highly promotional language (\"limited time,\" \"act now\") or creates false urgency. If the message tone is pushy, overly sales-driven, or fear-inducing, mark as spam; if it reads like a calm, personal exchange, mark as ham.",
+      "counts": {
+        "TP": 99,
+        "FP": 17,
+        "TN": 108,
+        "FN": 26,
+        "unknown": 0
+      },
+      "precision": 0.853448275862069,
+      "recall": 0.792,
+      "f1": 0.8215767634854771,
+      "fpr": 0.136,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Scan for solicitation or call-to-action phrases such as \"click here,\" \"buy,\" \"subscribe,\" \"win,\" or \"free.\" Presence of these marketing triggers should push the classification toward spam; absence of such explicit prompts suggests ham.",
+      "counts": {
+        "TP": 99,
+        "FP": 22,
+        "TN": 103,
+        "FN": 26,
+        "unknown": 0
+      },
+      "precision": 0.8181818181818182,
+      "recall": 0.792,
+      "f1": 0.8048780487804879,
+      "fpr": 0.176,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Assess the message for social-engineering elements\u2014impersonation of brands, requests for credentials, or pleas for personal information. If any phishing indicators appear, tag as spam; if the message stays within normal conversational bounds, tag as ham.",
+      "counts": {
+        "TP": 105,
+        "FP": 34,
+        "TN": 91,
+        "FN": 20,
+        "unknown": 0
+      },
+      "precision": 0.7553956834532374,
+      "recall": 0.84,
+      "f1": 0.7954545454545454,
+      "fpr": 0.272,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Check for personalization markers: direct references to prior conversation, recipient name, or group-specific context indicate genuine ham. Generic or broadcast-style content without context (e.g., \"Hello user, click\u2026\") should be classified as spam.",
+      "counts": {
+        "TP": 119,
+        "FP": 70,
+        "TN": 55,
+        "FN": 6,
+        "unknown": 0
+      },
+      "precision": 0.6296296296296297,
+      "recall": 0.952,
+      "f1": 0.7579617834394904,
+      "fpr": 0.56,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Compute metrics like the ratio of unique versus total characters, presence of long runs of emojis or non-alphabet symbols, and excessive whitespace. High anomaly scores (e.g., \"!!!!!\ud83d\ude02\ud83d\ude02\ud83d\ude02\") often signal automated spam; more natural formatting implies ham.",
+      "counts": {
+        "TP": 100,
+        "FP": 23,
+        "TN": 102,
+        "FN": 25,
+        "unknown": 0
+      },
+      "precision": 0.8130081300813008,
+      "recall": 0.8,
+      "f1": 0.8064516129032258,
+      "fpr": 0.184,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Apply a lightweight topic model or keyword clustering to identify if the message focuses on marketing or sales themes versus everyday chatter. If content aligns with promotions or affiliate-style language, label as spam; if centering on personal updates or social talk, label as ham.",
+      "counts": {
+        "TP": 102,
+        "FP": 8,
+        "TN": 117,
+        "FN": 23,
+        "unknown": 0
+      },
+      "precision": 0.9272727272727272,
+      "recall": 0.816,
+      "f1": 0.8680851063829788,
+      "fpr": 0.064,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Incorporate available metadata: frequency of identical messages sent, rapid-fire broadcasting, or sender reputation. Messages matching mass-send patterns or high send rates should be flagged as spam; one-off, varied messages lean toward ham.",
+      "counts": {
+        "TP": 112,
+        "FP": 47,
+        "TN": 78,
+        "FN": 13,
+        "unknown": 0
+      },
+      "precision": 0.7044025157232704,
+      "recall": 0.896,
+      "f1": 0.7887323943661972,
+      "fpr": 0.376,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. If unsure, label it as spam to avoid missing harmful content.",
+      "counts": {
+        "TP": 118,
+        "FP": 66,
+        "TN": 59,
+        "FN": 7,
+        "unknown": 0
+      },
+      "precision": 0.6413043478260869,
+      "recall": 0.944,
+      "f1": 0.7637540453074434,
+      "fpr": 0.528,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Mark as spam any message containing unsolicited promotions or suspicious links.",
+      "counts": {
+        "TP": 97,
+        "FP": 6,
+        "TN": 119,
+        "FN": 28,
+        "unknown": 0
+      },
+      "precision": 0.941747572815534,
+      "recall": 0.776,
+      "f1": 0.8508771929824562,
+      "fpr": 0.048,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. When in doubt, lean toward 'spam' to minimize false negatives.",
+      "counts": {
+        "TP": 118,
+        "FP": 64,
+        "TN": 61,
+        "FN": 7,
+        "unknown": 0
+      },
+      "precision": 0.6483516483516484,
+      "recall": 0.944,
+      "f1": 0.7687296416938111,
+      "fpr": 0.512,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Flag borderline cases as spam to ensure no spam slips through.",
+      "counts": {
+        "TP": 112,
+        "FP": 46,
+        "TN": 79,
+        "FN": 13,
+        "unknown": 0
+      },
+      "precision": 0.7088607594936709,
+      "recall": 0.896,
+      "f1": 0.7915194346289751,
+      "fpr": 0.368,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Prefer 'spam' if the message appears unsolicited or disruptive.",
+      "counts": {
+        "TP": 120,
+        "FP": 71,
+        "TN": 54,
+        "FN": 5,
+        "unknown": 0
+      },
+      "precision": 0.6282722513089005,
+      "recall": 0.96,
+      "f1": 0.759493670886076,
+      "fpr": 0.568,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Only label as spam if clearly unsolicited or harmful to reduce false positives.",
+      "counts": {
+        "TP": 15,
+        "FP": 1,
+        "TN": 124,
+        "FN": 110,
+        "unknown": 0
+      },
+      "precision": 0.9375,
+      "recall": 0.12,
+      "f1": 0.21276595744680846,
+      "fpr": 0.008,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Avoid labeling conversational or personal content as spam unless explicitly promotional.",
+      "counts": {
+        "TP": 65,
+        "FP": 6,
+        "TN": 119,
+        "FN": 60,
+        "unknown": 0
+      },
+      "precision": 0.9154929577464789,
+      "recall": 0.52,
+      "f1": 0.6632653061224489,
+      "fpr": 0.048,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Be conservative: only tag messages with clear spam indicators as spam.",
+      "counts": {
+        "TP": 39,
+        "FP": 6,
+        "TN": 119,
+        "FN": 86,
+        "unknown": 0
+      },
+      "precision": 0.8666666666666667,
+      "recall": 0.312,
+      "f1": 0.45882352941176474,
+      "fpr": 0.048,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Do not mark messages as spam solely on length or urgency; require explicit spam cues.",
+      "counts": {
+        "TP": 54,
+        "FP": 11,
+        "TN": 114,
+        "FN": 71,
+        "unknown": 0
+      },
+      "precision": 0.8307692307692308,
+      "recall": 0.432,
+      "f1": 0.5684210526315789,
+      "fpr": 0.088,
+      "num_samples": 250
+    },
+    {
+      "prompt": "Decide whether the following Telegram message is 'spam' or 'ham'. Ensure genuine personal or group conversation is labeled 'ham' to minimize false positives.",
+      "counts": {
+        "TP": 95,
+        "FP": 27,
+        "TN": 98,
+        "FN": 30,
+        "unknown": 0
+      },
+      "precision": 0.7786885245901639,
+      "recall": 0.76,
+      "f1": 0.7692307692307693,
+      "fpr": 0.216,
+      "num_samples": 250
+    }
+  ]
+}

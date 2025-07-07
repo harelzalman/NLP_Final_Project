@@ -1,0 +1,28 @@
+{
+  "prompt": "Estimate the password\u2019s entropy based on length and character variety: higher estimated entropy indicates stronger passwords.",
+  "confusion_matrix": [
+    [
+      17,
+      11,
+      6
+    ],
+    [
+      32,
+      67,
+      86
+    ],
+    [
+      0,
+      2,
+      29
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.452,
+  "precision": 0.4747027323326025,
+  "recall": 0.5992153443766347,
+  "f1": 0.43229262631459303,
+  "fpr": 0.25607982411635377,
+  "fnr": 0.40078465562336535
+}

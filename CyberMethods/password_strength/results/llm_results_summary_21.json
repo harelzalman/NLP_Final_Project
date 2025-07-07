@@ -1,0 +1,28 @@
+{
+  "prompt": "Score the password\u2019s bigram/trigram frequencies against an English corpus: high\u2010frequency n-grams indicate predictability and lower strength.",
+  "confusion_matrix": [
+    [
+      4,
+      1,
+      29
+    ],
+    [
+      9,
+      1,
+      175
+    ],
+    [
+      1,
+      0,
+      30
+    ]
+  ],
+  "num_samples": 250,
+  "skipped": 0,
+  "accuracy": 0.14,
+  "precision": 0.3046398046398046,
+  "recall": 0.36359813323760193,
+  "f1": 0.1345923160573549,
+  "fpr": 0.33106258699866004,
+  "fnr": 0.6364018667623981
+}
